@@ -6,42 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web design layout</title>
 	<style>
+	    body{
+		    text-align:center;
+			}
+	    header, footer,section,aside{
+		    padding: 10px;
+			}
         header{
-		    background-color:red;
+		    background-color:brown;
 		    }
-		menu{
-		    background-color:violet;
+		.menu{
+		    background-color: #AFE231;
+			text-align:left;
+			flex-basis: 250px
 		    }
-        content{
-		    background-color:red;
+        #content{
+		    background-color:#DA9422;
+			flex-grow:1;
+            text-align:justify;
 		    }
+		aside{
+		    background-color:darkgoldenrod;
+			text-align:justify;
+			flex-basis:200px;
+			}
+		footer{
+		    background-color:darkgrey;
+			}
+		.arrange{
+		    display: flex;
+			height:250px;
+			}
+		.text{
+		    text-indent:30px;
+			}
+		ul{
+		    list-style-type:none;
+			}
 	</style>
 </head>
 
 <body>
     <header>
-	    <h2>HeadeR ContenT</h2>
+	    <h2>Header Content</h2>
 	</header>
-	<main class="flex container">
-	    <menu>
-		    <h3>Menu</h3>
-			<ul>
-			    <li>Home</li>
-				<li>About</li>
-				<li>Contact</li>
-				<li>Help</li>
-		    </ul>
-	    </menu>
-		<section>
-		    <h3>ContenT</h3>
-			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, facere. Quis earum, quae sapiente dolores et soluta animi deserunt corporis. </p>
+	
+	<main class="arrange">
+	    <section class="menu">
+		    <h3>Menu items</h3>
+			    <ul>
+				    <a href=""><li>Home</li></a>
+					<a href=""><li>Products</li></a>
+					<a href=""><li>Service</li></a>
+					<a href=""><li>About us</li></a>
+				</ul>
+	    </section>
+		<section id="content">
+		    <h3>Content</h3>
+			    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, facere. Quis earum, quae sapiente dolores et soluta animi deserunt corporis. </p>
+		        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, facere. Quis earum, quae sapiente dolores et soluta animi deserunt corporis. </p>
+				<blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, facere. Quis </blockquote>	
 	    </section>
 		<aside>
-		    <h3>AsidE</h3>
+		    <h3>Aside</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing </p>
 	    </aside>
 	</main>
+	
 	<footer>
-	    <h3>FooteR</h3>
+	    <h3>Footer</h3>
 	</footer>
+	
 </body>
 </html>
