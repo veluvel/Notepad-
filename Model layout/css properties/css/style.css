@@ -54,7 +54,7 @@ body{
 
 
 .colortransparent{
-	color:green
+	color:green;
 	}
 
 /*text properties*/
@@ -91,38 +91,71 @@ body{
 .cap{
 	text-transform:capitalize;
 	font-size:20px;
-}
+	}
 .up{
 	text-transform:uppercase;
 	font-size:20px;
 	color:green
-}
+	}
 .left{
 	text-align:left;
 	color:blue;
 	font-size:20px
-}
+	}
 .right{
 	text-align:right;
 	color:blue;
 	font-size:20px
-}
+	}
 .center{
 	text-align:center;
 	color:blue;
 	font-size:20px
-}
+	}
 .justify{
 	text-align:justify;
 	color:blue;
 	font-size:20px
-}
+	}
 .indent{
 	text-indent:30px;
-}
+	}
 .percentage{
 	text-indent:20%;
-}
+	}
 .line{
 	line-height:20pt;
+	}
+.disk{
+	list-style-type:disk;
+	}
+.circle{
+	list-style-type:circle;
+}
+.square{
+	list-style-type:square;
+}
+.decimal{
+	list-style-type:decimal;
+}
+.lower-roman{
+	list-style-type:lower-roman;
+}
+.upper-roman{
+	list-style-type:upper-roman;
+}
+.lower-alpha{
+	list-style-type:lower-alpha;
+}
+.upper-alpha{
+	list-style-type:upper-alpha;
+}
+.none{
+	list-style-type:none;
+}
+.image{
+	list-style-image:url
+}
+.image1{
+	list-style-image:url(sqpurple.gif);
 }
