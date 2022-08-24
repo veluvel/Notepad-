@@ -1,6 +1,6 @@
 *{
-	padding: 0;
-	margin: 0;
+	padding: ;
+	margin:auto;
 }
 .main{
 	background-image:url('./island.jpg');
@@ -30,7 +30,7 @@
 	color:#D68910;
 }
 .island:hover{
-	background-color:white;
+	color:white;
 	cursor:pointer;
 }
 .menu{
@@ -66,17 +66,18 @@ ul li a:hover{
 	margin-left: 270px;
 }
 .srch{
-	font-family: timesnewroman;
+	font-family: georgia;
 	width:200px;
 	height:40px;
-	background: white;
-	border: 1px solid orange;
+	background: transparent;
+	border: 2px solid orange;
 	margin-top:15px;
-	color:orange;
+	color:#D68910;
 	border-right:none;
 	font-size: 16px;
 	float:left;
 	padding: 10px;
+	letter-spacing:2px;
 	border-bottom-left-radius: 5px;
 	border-top-left-radius: 5px;
 	
@@ -230,4 +231,18 @@ ul li a:hover{
 	padding-top:15px;
 	padding-bottom:10px;
 	text-align:center;
+}
+.icons a{
+	text-decoration:none;
+	text-align:center;
+	color:white;
+}
+.icons ion-icon{
+	color:white;
+	font-size:30px;
+	padding-left:14px;
+	padding-top:5px;
+}
+.icons ion-icon:hover{
+	color:#D68910;
 }
