@@ -1,0 +1,16 @@
+*{
+	margin:auto;
+	padding:auto;
+}
+div{
+	background-image:url('./img/background.jpg');
+	height:30vh;
+	color:white;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:fixed;/*scroll*/
+}
+.head2 {
+	margin-left:200px;
+	margin-top:10px;
+}

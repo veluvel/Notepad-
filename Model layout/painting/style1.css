@@ -1,0 +1,20 @@
+*{
+	padding:auto;
+	margin:auto;
+}
+.main{
+	background-image:url('img/watercolour.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100vh;
+	}
+.logo{
+	margin-left:50px;
+	padding-top:20px;
+	font-family:Jokerman;
+	letter-spacing:2px;
+	color:#76B01C;
+}
+.trek{
+	color:black;
+}
