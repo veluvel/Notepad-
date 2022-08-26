@@ -1,0 +1,27 @@
+.container{
+	margin:auto;
+	width:80%;
+}
+body{
+	background-image:url('img/amelia1.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:50vh;
+	background-attachment:scroll;
+}
+.header{
+	margin-left:10px;
+	background-color:transparent;
+}
+h2{
+	color:silver;
+	font-family:Jokerman;
+	letter-spacing:2px;
+	font-size:30px;
+}
+.header h2{
+	color:white;
+}
+h2:hover{
+	color:orange;
+	cursor:pointer;
