@@ -2,13 +2,19 @@
 	margin:auto;
 	padding:auto;
 }
-div{
+body{
 	background-image:url('./img/background.jpg');
-	height:30vh;
-	color:white;
-	background-repeat:no-repeat;
 	background-size:cover;
-	background-position:fixed;/*scroll*/
+	background-repeat:no-repeat;
+	height:50vh;
+	background-attachment:fixed;
+/*	color:white;
+	;
+	
+	background-attachment:fixed;/	*scroll*/
+}
+.container{
+	margin-left:100px;
 }
 .head2 {
 	margin-left:200px;
