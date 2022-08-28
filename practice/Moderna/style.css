@@ -1,0 +1,195 @@
+
+.container{
+	
+	padding:0px;
+	margin:auto;
+	width:85%;
+}
+#body{
+	background-image:url('./img/modern.jpg');
+	background-size:100%;
+	height:600px;
+	background-attachment:scroll;
+	background-repeat:no-repeat;
+	background-color:#1e4356;
+	
+}
+
+#body:hover{
+	opacity:0.8;
+	transition:0.1s ease;
+}
+.menu{
+	
+	height:auto;
+	display: flex;
+	justify-content: space-between;	
+	background-color: transparent; 
+	color:white;
+}
+
+header{
+	background-color:#1e4356;
+	width:100%;
+	height:auto;
+	position:sticky;
+	top:0;}
+
+.title{
+	width: 30%;
+}
+.title h2{
+	font-family:"Open Sans", sans-serif;
+	font-size: 28px;
+    margin: 20px 10px;
+    padding: 4px 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 2px;
+	cursor:pointer;
+    text-transform: uppercase;
+}
+
+
+.title h2:hover{
+	color:#6eabbd;
+}
+.navbar{
+	width: 60%;
+	margin-right:5px;
+}
+.nav_list li a{
+	text-decoration: none;
+	color: white;
+	font-family:"Open Sans", sans-serif;
+}
+.nav_list li a:hover{
+	color:#6eabbd;
+	
+}
+.nav_list{
+	padding-top:10px;
+	display: flex ;
+	justify-content: space-between;
+	color:white;
+	list-style: none;
+	font-size:15px;
+}
+.home{
+	
+	text-align:center;
+	color:white;
+	margin-top:70px;
+}
+.home h2{
+	font-size:50px;
+	font-family: "Roboto", sans-serif;
+}
+.home p{
+	font-size:20px;
+	font-family:"Open Sans", sans-serif;
+	
+}
+button{
+	margin-bottom:10px;
+	margin-top:30px;
+	background-color:transparent;
+	border-color:#0e7ca7;
+	border-radius:50px;
+	border-width:thin;
+}	
+	
+	/*
+	border-bottom-left-radius:20px;
+	border-top-left-radius:5px;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:5px;
+	*/
+
+button:hover{
+	cursor:pointer;
+	background-color:#0e7ca7;
+}
+button .btn{
+	font-size:12px;
+	margin:10px;
+	font-weight:15px;
+	font-family: "Roboto", sans-serif;
+	color:white;
+}
+
+/* next section is ABOUT, these properties are given below*/
+
+
+
+.description{
+	display:flex;
+	padding:100px 0 100px 0;
+	line-height: 30px;
+	font-family: "Roboto", sans-serif;
+	font-size:15px;
+}
+.description p{
+	color:#515452;
+}
+
+.about1{
+    padding: 30px;
+    position: relative;
+	text-align: center;
+	background: #fff;
+	border: 1px solid #fff;
+	margin:0 15px;
+    overflow: hidden;    
+    box-shadow: 0 5px 28px rgb(68 88 144 / 14%);
+	transition: all 0.5s ease-in-out;
+    
+}
+.about1:hover{
+	border-color:orange;
+	background-color:#F8F4BE;
+}
+.about2{
+	padding:30px;
+	position:relative;
+	text-align:center;
+	background:#fff;
+	border: 1px dashed #fff;
+	margin:0 15px;
+	box-shadow: 0 5px 28px rgb(68 88 144 / 14%);
+	transition: all 0.5s ease-in-out;
+}
+.about2:hover{
+	border-color:green;
+	background-color:#DFF8BE;
+}
+.about3{
+	padding:30px;
+	position:relative;
+	text-align:center;
+	background:#fff;
+	border:1px dotted #fff;
+	margin:0 15px;
+	box-shadow: 0 5px 28px rgb(68 88 144 / 14%);
+	transition:all 0.5s ease-in-out;
+}
+.about3:hover{
+	border-color:#F93E8B;
+	background-color:#FBE6F6;
+}
+.about4{
+	padding:30px;
+	position:relative;
+	text-align:center;
+	background:#fff;
+	border:1px solid #fff;
+	margin:0 15px;
+	box-shadow: 0 5px 28px 0 rgb(68 88 144 / 14%);
+	transition:all 0.5s ease-in-out;
+}
+.about4:hover{
+	border-color:blue;
+	background-color:#DFEFF9;
+}
+
+/*next section is SERVICE,these properties are given below*/
