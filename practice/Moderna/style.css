@@ -193,3 +193,92 @@ button .btn{
 }
 
 /*next section is SERVICE,these properties are given below*/
+
+.loremnemo{
+	background-color:white;
+	padding:60px 0;
+}
+
+.loremnemo:hover{
+		background-color:#F1E872;
+		transition:all 0.8s ease-in-out;
+}
+
+.aa{
+	border:5px dashed white;
+/*	padding:60px 0; */
+	display:flex;
+	justify-content:space-between;
+}
+
+.videoplayer{
+	width:90%;
+	height:auto;
+	padding:15px;
+	/*background-color:blue;*/
+}
+
+.aa1{
+	color:red;
+	font-family: "Roboto", sans-serif;
+	width:1000px;
+	margin-right:10px;
+	padding:15px;
+	margin-top:80px;
+/*	background-color:red;*/
+}
+
+.aa2{
+	display:flex;
+	
+}
+.aa3{
+	display:flex;
+}
+
+.content1{
+	margin-left:20px;
+}
+.content2{
+	margin-left:20px;
+}
+
+.pad1{
+	border-radius:10px;
+	padding:15px;
+	border:3px solid transparent;
+	
+}
+.pad1:hover{
+	border-color:white;
+	transition:all 0.8s ease-in-out;
+}
+
+.pad2{
+	border-radius:10px;
+	padding:18px;
+	border:3px dotted transparent;
+	
+}
+.pad2:hover{
+	border-color:white;
+	transition:all 0.8s ease-in-out;
+}
+
+
+
+.flex1{
+	display:flex;
+}
+
+.aa h3{
+	cursor:pointer;
+}
+.aa p{
+	color:#515452;
+}
+
+.aa h3:hover{
+	color:white;
+	transition:all 1s ease-in-out;
+}
