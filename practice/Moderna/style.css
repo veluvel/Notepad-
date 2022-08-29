@@ -1,7 +1,9 @@
-
+*{
+	margin:0px;
+}
 .container{
 	
-	padding:0px;
+	/*padding:0px;*/
 	margin:auto;
 	width:85%;
 }
@@ -12,7 +14,6 @@
 	background-attachment:scroll;
 	background-repeat:no-repeat;
 	background-color:#1e4356;
-	
 }
 
 #body:hover{
@@ -33,7 +34,8 @@ header{
 	width:100%;
 	height:auto;
 	position:sticky;
-	top:0;}
+	top:0;
+	}
 
 .title{
 	width: 30%;
@@ -55,6 +57,7 @@ header{
 	color:#6eabbd;
 }
 .navbar{
+	margin-top:20px;
 	width: 60%;
 	margin-right:5px;
 }
@@ -234,6 +237,7 @@ button .btn{
 }
 .aa3{
 	display:flex;
+	margin-top:40px;
 }
 
 .content1{
@@ -241,6 +245,7 @@ button .btn{
 }
 .content2{
 	margin-left:20px;
+	
 }
 
 .pad1{
@@ -281,4 +286,67 @@ button .btn{
 .aa h3:hover{
 	color:white;
 	transition:all 1s ease-in-out;
+}
+
+/*Features*/
+
+
+.section-3{
+	background-color:#F0EDA5;
+	margin-top:30px;
+}
+
+.about{
+	text-align:center;
+}
+.about-1{
+	margin-top:30px;
+	display:flex;
+	padding-top:30px;
+	padding-bottom:30px;
+	border:1px solid black;
+}
+.des-1{
+	padding-top:100px;
+	padding-right:30px;
+	padding-left:30px;
+}
+
+.about-2{
+	margin-top:30px;
+	display:flex;
+	padding-top:30px;
+	padding-bottom:30px;
+	border:1px solid black;
+}
+.des-2{
+	padding-top:100px;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.about-3{
+	margin-top:30px;
+	display:flex;
+	padding-top:30px;
+	padding-bottom:30px;
+	border:1px solid black;
+}
+.des-3{
+	padding-top:100px;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.about-4{
+	margin-top:30px;
+	display:flex;
+	padding-top:30px;
+	padding-bottom:30px;
+	border:1px solid black;
+}
+.des-4{
+	padding-top:100px;
+	padding-left:30px;
+	padding-right:30px;
 }
