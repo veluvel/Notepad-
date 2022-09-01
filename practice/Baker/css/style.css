@@ -302,8 +302,18 @@ header{
 /*----------------------------------------------------------------*/
 
 #portfolio{
-	background-color:#CBF7B5;
+	background-color:#E2FCD6;
 	height:110vh;
 	width:auto;
 	margin-top:60px;
+}
+.portfolio-content{
+	background-color:#A9FD7F;   /*#CBF7B5;*/
+	width:auto;
+	height:150px;
+}
+.portfolio-image{
+	margin-top:40px;
+	background-color:red;
+	height:200px;
 }
