@@ -486,3 +486,57 @@ header{
 }
 
 /*----------------------------------------------------------------------------*/
+
+#faq{
+	width:100%;
+	height:100vh;
+	background-color:orange;
+	
+}
+.faq-content{
+	margin-top: 60px;
+	padding-top: 20px;
+	width: 100%;
+	height: 25vh;
+	background-color: grey;
+}
+.faq-h{
+	width: auto;
+	height: 5vh;
+	padding-top: 10px;
+
+	margin-left: 200px;
+	margin-right: 200px;
+	background-color: white;
+}
+.faq-p{
+	width: auto;
+	height: 12vh;
+	margin-top: 15px;
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: red;
+}
+.faq-details{
+	width: 100%;
+	height: 80vh;
+	background-color: red;
+	margin-top: 30px;
+}
+.faq-h1{
+	width: 100%;
+	height: 20px;
+	background-color: white;
+	margin-top: 20px;
+}
+/*#service{
+	background-color: #E6F0A4;
+	height: 140vh;
+	padding-top:20px;
+}
+.service-content{
+	background-color:#D4EC2B;
+	height:150px;
+	padding-top:10px;
+	margin-top:0px;
+}
