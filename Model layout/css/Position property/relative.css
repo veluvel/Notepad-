@@ -1,0 +1,32 @@
+.main{
+	border: 5px solid gray;
+	width: 500px;
+	min-height: 500px;
+	font-weight: bold;
+}
+.box{
+	width: 100px;
+	height: 100px;
+	color: white;
+	padding: 10px;
+	font-weight: bold;
+	
+}
+.box1{
+	background-color: red;
+	position: relative;
+	top: 100px;
+	left: 50px;
+}
+.box2{
+	background-color: pink;
+	position: relative;
+	top: 10px;
+	left: 70px;
+}
+.box3{
+	background-color: yellowgreen;
+	position: relative;
+	left: 90px;
+	bottom: 80px;
+}
