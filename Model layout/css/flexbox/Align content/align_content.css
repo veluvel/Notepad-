@@ -1,0 +1,38 @@
+.container{
+	border: 5px solid red;
+	padding: 10px;
+	
+}
+.box{
+	border: 1px solid brown;
+	padding: 20px;
+	margin: 10px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.box{
+	background-color: teal;
+	color: white;
+}
+
+
+
+/* align content -cross axis element*/
+/*
+	align-content: flex-start;
+	align-content: flex-end;
+	align-content: center;
+	align-content: baseline;
+	align-content: stretch;(default)
+	align-content: space-between;
+	align-content: space-around;
+	*/
+
+.container{
+	display: flex;
+	flex-direction: row;
+	width: 400px;
+	height: 300px;
+	flex-wrap: wrap;
+	align-content: center;
+}	
