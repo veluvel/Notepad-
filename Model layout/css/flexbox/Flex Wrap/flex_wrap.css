@@ -1,0 +1,32 @@
+.container{
+	border: 5px solid red;
+	padding: 10px;
+	
+}
+.box{
+	border: 1px solid brown;
+	padding: 20px;
+	margin: 10px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.box{
+	background-color: teal;
+	color: white;
+}
+
+
+
+/* flexwrap */
+
+.container{
+	display: flex;
+	flex-direction: row;
+	width: 200px;
+	/*
+	flex-wrap: nowrap;
+	flex-wrap: wrap;
+	flex-wrap: wrap-reverse;
+	*/
+	flex-wrap: wrap;
+}
