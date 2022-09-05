@@ -1,0 +1,44 @@
+.container{
+	border: 5px solid black;
+	display: flex;
+	width: 1000px;
+	padding: 0;
+} 
+.box{
+	margin: 1px;
+	border: 1px solid white;
+	background-color: red;
+	padding: 12px;
+	font-size: 30px;
+	font-weight: bold;
+	flex-grow: 1;
+	text-align:center;
+	color: white;
+}
+
+.box:nth-child(2){
+	flex-grow: 2;
+}
+
+.container1{
+	border: 2px solid black;
+	display:flex;
+	width: 200px;
+	padding: 0px;
+	
+}
+.box1{
+	
+	border: 1px solid white;
+	background-color: red;
+	padding: 10px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align:center;
+	color: white;
+	flex-shrink: 5;
+}
+
+.box:nth-child(3){
+	flex-shrink: 2;
+}
