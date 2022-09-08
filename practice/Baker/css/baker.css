@@ -40,6 +40,7 @@ header{
 .navbar ul{
 	display: flex;
 	justify-content: space-between;
+	
 	list-style-type: none;
 }
 ul li a{
@@ -82,8 +83,6 @@ ul li a{
 }
 
 
-
-
 #logo{
 	height: 100px;
 	padding: 30px 0;
@@ -121,8 +120,6 @@ ul li a{
 .client-6{
 	width: 16%;
 }
-
-
 
 
 #about{
@@ -198,8 +195,6 @@ ul li a{
 }
 
 
-
-
 #count{
 	padding-top: 40px;
 	padding-bottom: 60px;
@@ -220,7 +215,6 @@ ul li a{
     display: block;
     color: #414c64;
 }
-
 
 
 #service{
@@ -307,8 +301,6 @@ ul li a{
 }
 
 
-
-
 #call{
 	background-color: #414c64;
 	width: 100%;
@@ -345,7 +337,6 @@ ul li a{
 	background-color: #ffc107;
 	transition: all 0.3s ease-in-out;
 }
-
 
 
 #testimonial{
@@ -445,9 +436,7 @@ ul li a{
 }
 
 
-
 #portfolio{
-	background-color: red;
 	height: 160vh;
 	width: auto;
 }
@@ -486,19 +475,14 @@ ul li a{
 }	
 
 
-
-
 #team{
 	width: 100%;
 	height: 100vh;
-	background-color: #FBF497;
 	margin-top: 60px;
 }
 .team-content{
 	text-align: center;
 	padding-top: 20px;
-	background-color: white;
-
 }
 .team-line{
 	margin-bottom: 20px ;
@@ -554,16 +538,13 @@ ul li a{
 }
 
 
-
 #pricing{
 	width:100%;
 	height:100vh;
-	background-color:#F8D4E5;
 	text-align: center;
 }
 .pricing-content{
 	padding-top: 20px;
-	background-color: white;
 }
 .pricing-line{
 	margin-bottom: 20px ;
@@ -586,12 +567,13 @@ ul li a{
 	width: 23%;
 	height: 70vh;
 	background-color: white;
+	border: 1px solid orange;
 	border-radius: 5px ;
 }
 .p-detail1 h3{
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: orange;
+	/*background-color: #ffc107; */
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	font-family: "raleway", sans-serif; 
@@ -603,7 +585,7 @@ ul li a{
 	font-size: 40px;
 	font-weight: 700;
 	padding-top: 20px;
-	color: orange;
+	color: #ffc107;
 	font-family: "raleway", sans-serif;
 }
 .p-detail1-sup sup{
@@ -632,11 +614,11 @@ ul li a{
 	cursor: pointer;
 }
 
-
 .p-detail2{
 	width: 23%;
 	height: 70vh;
 	background-color: white;
+	border: 1px solid orange;
 	border-radius: 5px ;
 }
 .p-detail2 h3{
@@ -690,11 +672,12 @@ ul li a{
 	height: 70vh;
 	background-color: white;
 	border-radius: 5px ;
+	border: 1px solid orange;
 }
 .p-detail3 h3{
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #ffc107;
+	/*background-color: #ffc107;*/
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	font-family: "raleway", sans-serif; 
@@ -734,17 +717,17 @@ ul li a{
 	border: 2px solid #c8cedc;
 	cursor: pointer;
 }
-
 .p-detail4{
 	width: 23%;
 	height: 70vh;
 	background-color: white;
 	border-radius: 5px ;
+	border: 1px solid orange;
 }
 .p-detail4 h3{
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #ffc107;
+	/*background-color: #ffc107;*/
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	font-family: "raleway", sans-serif; 
@@ -786,70 +769,81 @@ ul li a{
 }
 
 
+#faq{
+	width:100%;
+	height:80vh;
+	padding-top: 60px;
+	background-color: brown;
+}
+.faq-h{
+	font-size: 32px;
+    font-weight: bold;
+	font-family: "Raleway", sans-serif;
+}
+.faq-p{
+	font-family: "open-sans", sans-serif;
+	font-size: 16px;
+	color: #aab3c7;
+}
+.faq-content{
+	padding-top: 20px;
+	height: 20vh;
+	text-align: center;
+}
+.faq-line{
+	margin-bottom: 20px ;
+	width: 50px;
+	border: 2px solid #ffc107;
+}
+.faq-details{
+	margin-left: 130px;
+	margin-right: 130px;
+	padding: 30px;
+	padding-bottom: 40px; 
+}
+.faq p{
+	font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.faq-h1{
+	padding-bottom: 40px;
+}
+.faq-h2{
+	padding-bottom: 40px;
+}
+.faq-h3{
+	padding-bottom: 40px;
+}
+.faq-h4{
+	padding-bottom: 40px;
+}
+.faq-h5{
+	padding-bottom: 40px;
+}
+summary:hover{
+	color: #ffc107;
+	transition: all 0.2s ease-in-out;
+}
+.faq-details summary{
+	font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+
+#contact{
+	background-color: #8b9976;
+	height: 100vh;
+}
+
+
+
+/*
+summary::marker{
+	text-decoration: none;
+}*/
 
 /*
 
-#pricing{
-	width:100%;
-	height:100vh;
-	background-color:#F8D4E5;
-	margin-top:60px;
-}
-.pricing-content{
-	width:100%;
-	height:25vh;
-	background-color:#F182B4;
-	
-}
-.pricing-image{
-	background-color:#CA2872;
-	height:60vh;
-	margin-top:40px;
-	display:flex;
-	justify-content:space-between;
-}
-.p-detail1{
-	background-color:#D6D2A4;
-	width:23%;
-	height:60vh;
-	margin-left:15px;
-}
-.p-detail2{
-	background-color:#D6D2A4;
-	width:23%;
-	height:60vh;
-	
-}
-.p-detail3{
-	background-color:#D6D2A4;
-	width:23%;
-	height:60vh;
-	
-}
-.p-detail4{
-	background-color:#D6D2A4;
-	width:23%;
-	height:60vh;
-	margin-right:15px;
-}
-
-
-
-
-
-#faq{
-	width:100%;
-	height:120vh;
-	background-color:#EAB461;
-	
-}
-.faq-content{
-	margin-top: 60px;
-	padding-top: 20px;
-	width: 100%;
-	height: 25vh;
-	background-color: #E87F27;
-}
 .faq-h{
 	width: auto;
 	height: 5vh;
@@ -928,10 +922,6 @@ ul li a{
 	margin-right: 2vh;
 }
 
-
-
-
-
 #footer-sec{
 	width: 100%;
 	height: 55vh;
@@ -945,9 +935,6 @@ ul li a{
 	margin-top: 5vh;
 	background-color: #CDC4CC;
 }
-
-
-
 
 .footer-sec2{
 	width: 100%;
