@@ -833,44 +833,52 @@ summary:hover{
 #contact{
 	background-color: #8b9976;
 	height: 100vh;
+	text-align: center;
 }
-
-
-
-/*
-summary::marker{
-	text-decoration: none;
-}*/
-
-/*
-
-.faq-h{
+.contact-content{
+	padding-top: 2vh;
 	width: auto;
-	height: 5vh;
-	padding-top: 10px;
-
-	margin-left: 200px;
-	margin-right: 200px;
-	background-color: #F1C39C;
+	background-color: #9C5294;
+	height: 20vh;
 }
-.faq-p{
-	width: auto;
-	height: 12vh;
-	margin-top: 15px;
-	margin-left: 100px;
-	margin-right: 100px;
-	background-color: #F1C39C;
+.contact-line{
+	margin-bottom: 20px ;
+	width: 50px;
+	border: 2px solid #ffc107;
 }
-.faq-details{
-	width: 100%;
-	height: 80vh;
-	background-color: #F1C39C;
-	margin:0px;
+.contact-details{
+	display: flex;
+	justify-content: space-between;
 }
-
-
-
-
+.c-details1{
+	padding: 20px 20px;
+	width: 50%;
+	background-color: red;
+}
+.c-d-1{
+	background-color: white;
+	padding: 40px;
+	line-height: 30px;
+}
+iconify-icon{
+	font-size: 30px;
+	padding: 10px;
+	border-radius: 50%;
+	border: 2px dotted #fbe49f;
+	color: #ffc107;
+}
+.c-d-2{
+	display: flex;
+	justify-content: space-between;
+}
+.c-d-2a{
+	background-color: ;
+}
+.c-details2{
+	width: 50%;
+	background-color: yellow;
+}
+/*
 
 #contact{
 	
@@ -879,12 +887,7 @@ summary::marker{
 	background-color: pink;
 	margin-top: 60px;
 }
-.contact-content{
-	padding-top: 2vh;
-	width: auto;
-	background-color: #9C5294;
-	height: 25vh;
-}
+
 .contact-h{
 	height: 7vh;
 	margin-left: 450px;
