@@ -851,13 +851,14 @@ summary:hover{
 	justify-content: space-between;
 }
 .c-details1{
-	padding: 20px 20px;
+	padding: 10px 10px;
 	width: 50%;
 	background-color: red;
 }
 .c-d-1{
+	margin-bottom: 10px;
 	background-color: white;
-	padding: 40px;
+	padding: 30px;
 	line-height: 30px;
 }
 iconify-icon{
@@ -868,16 +869,25 @@ iconify-icon{
 	color: #ffc107;
 }
 .c-d-2{
+	background-color: yellow;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	line-height: 20px;
 }
 .c-d-2a{
-	background-color: ;
+	color: red;
+	padding: 20px 70px;
+	background-color: brown;
+}
+.c-d-2b{
+	color: red;
+	padding: 20px 70px;
+	background-color: brown;
 }
 .c-details2{
 	width: 50%;
+} /*
 	background-color: yellow;
-}
 /*
 
 #contact{
