@@ -727,7 +727,6 @@ ul li a{
 .p-detail4 h3{
 	padding-top: 20px;
 	padding-bottom: 20px;
-	/*background-color: #ffc107;*/
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	font-family: "raleway", sans-serif; 
@@ -853,13 +852,13 @@ summary:hover{
 .c-details1{
 	padding: 10px 10px;
 	width: 50%;
-	background-color: red;
 }
 .c-d-1{
-	margin-bottom: 10px;
+	margin: 0px 0px;
 	background-color: white;
 	padding: 30px;
 	line-height: 30px;
+	border: 2px dotted #111;
 }
 iconify-icon{
 	font-size: 30px;
@@ -869,25 +868,45 @@ iconify-icon{
 	color: #ffc107;
 }
 .c-d-2{
-	background-color: yellow;
+	margin-top: 10px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	line-height: 20px;
 }
 .c-d-2a{
-	color: red;
-	padding: 20px 70px;
-	background-color: brown;
+	padding: 20px 65px;
+	background-color: white;
+	border: 2px dotted #111;
 }
 .c-d-2b{
-	color: red;
-	padding: 20px 70px;
-	background-color: brown;
+	padding: 20px 65px;
+	background-color: white;
+	border: 2px dotted #111;
 }
 .c-details2{
 	width: 50%;
-} /*
-	background-color: yellow;
+	background-color: #ccc;
+	margin: 10px;
+	padding-top: 80px;
+	line-height: 50px;
+} 
+.c-details2 input{
+	height: 30px;
+	width: 81%;
+}
+.c-details2a .input1{
+	width: 40%;
+	justify-content: space-between;
+}
+.send{
+	width: 30%;
+	height: 40px;
+	border-radius: 20px;
+	border: #ffc107;
+	color: #fff;
+	background-color: #ffc107;
+	cursor: pointer;
+}
 /*
 
 #contact{
