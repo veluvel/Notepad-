@@ -12,6 +12,16 @@
 	height: 72vh;
 	padding-top: 50px;
 	background-size: cover;
+	position: relative;
+}
+.body1::after{
+	content: "";
+	position: absolute;
+	background-color: rgba(45, 53, 69, 0.7);
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 }
 header{
 	width: 100%;
@@ -770,9 +780,8 @@ ul li a{
 
 #faq{
 	width:100%;
-	height:80vh;
+	height:120vh;
 	padding-top: 60px;
-	background-color: brown;
 }
 .faq-h{
 	font-size: 32px;
@@ -798,6 +807,7 @@ ul li a{
 	margin-left: 130px;
 	margin-right: 130px;
 	padding: 30px;
+	line-height: 40px;
 	padding-bottom: 40px; 
 }
 .faq p{
@@ -830,15 +840,22 @@ summary:hover{
 
 
 #contact{
-	background-color: #8b9976;
-	height: 100vh;
+	height: 90vh;
 	text-align: center;
 }
 .contact-content{
 	padding-top: 2vh;
 	width: auto;
-	background-color: #9C5294;
 	height: 20vh;
+}
+.contact-h{
+	font-family: "Raleway", sans-serif;
+	font-size: 32px;
+}
+.contact-p{
+	font-family: "open-sans", sans-serif;
+	font-size: 14px;
+    color: #aab3c7;
 }
 .contact-line{
 	margin-bottom: 20px ;
@@ -858,9 +875,9 @@ summary:hover{
 	background-color: white;
 	padding: 30px;
 	line-height: 30px;
-	border: 2px dotted #111;
+	border: 1px solid #ccc;
 }
-iconify-icon{
+.icon-border{
 	font-size: 30px;
 	padding: 10px;
 	border-radius: 50%;
@@ -876,27 +893,33 @@ iconify-icon{
 .c-d-2a{
 	padding: 20px 65px;
 	background-color: white;
-	border: 2px dotted #111;
+	border: 1px solid #ccc;
 }
 .c-d-2b{
 	padding: 20px 65px;
 	background-color: white;
-	border: 2px dotted #111;
+	border: 1px solid #ccc;
 }
 .c-details2{
 	width: 50%;
 	background-color: #ccc;
 	margin: 10px;
-	padding-top: 80px;
+	padding-top: 20px;
 	line-height: 50px;
 } 
-.c-details2 input{
-	height: 30px;
+.c-details2 .input2{
+	height: 20px;
+	font-size: 16px;
+	padding: 10px;
 	width: 81%;
+	margin-bottom: 10px;
 }
 .c-details2a .input1{
-	width: 40%;
-	justify-content: space-between;
+	width: 38%;
+	font-size: 16px;
+	padding: 10px;
+	margin-bottom: 10px;
+	height: 20px;
 }
 .send{
 	width: 30%;
@@ -907,69 +930,128 @@ iconify-icon{
 	background-color: #ffc107;
 	cursor: pointer;
 }
-/*
-
-#contact{
-	
-	width: 100%;
-	height: 115vh;
-	background-color: pink;
-	margin-top: 60px;
+.c-details2 textarea{
+	font-size: 18px;
+	padding: 10px;
+	width: 82%;
+	height: 120px;
+	margin-top: 5px;
 }
 
-.contact-h{
-	height: 7vh;
-	margin-left: 450px;
-	margin-right: 450px;
-	background-color: #ED9AE4;
-}
-.contact-p{
-	margin-top:10px;
-	margin-left: 100px;
-	margin-right: 100px;
-	height: 15vh;
-	background-color: #EAD3E7;
-	
-}
-.contact-details{
-	background-color: #fff;
-	width: 100%;
-	height: 70vh;
-	margin-top:8vh;
-	display: flex;
-	padding-top: 2vh;
-	justify-content: space-between;
-}
-.c-details1{
-	background-color: #EAD3E7;
-	width: 48%;
-	height: 68vh;
-	margin-left: 2vh;
-	
-}
-.c-details2{
-	background-color:  #EAD3E7;
-	width: 48%;
-	height: 68vh;
-	margin-right: 2vh;
-}
-
-#footer-sec{
+#footer-section{
 	width: 100%;
 	height: 55vh;
-	margin-top: 8vh;
-	background-color: #8E898D;
+	margin-top: 10vh;
 	padding-top: 1vh;
 }
+.footer-section-1{
+	display:flex;
+	justify-content: space-between;
+	padding-top: 50px;
+}
 .footer-sec1{
-	width: auto;
-	height: 48vh;
-	margin-top: 5vh;
-	background-color: #CDC4CC;
+	border: 1px solid red;
+	padding: 10px;
+	width: 16%;
+}
+.footer-sec1 h3{
+	padding-bottom: 15px;
+	font-size: 20px;
+}
+.footer-sec2{
+	border: 1px solid red;
+	width: 16%;
+	line-height: 40px;
+}
+.footer-sec2 h5{
+	font-size: 20px;
+}
+.footer-sec2 iconify-icon{
+	color: #ffc107;
+}
+.footer-sec2 li{
+	padding-left: 5px;
+	list-style-type: none;
 }
 
-.footer-sec2{
-	width: 100%;
-	height: 15vh;
-	background-color: #433457;
-} 
+.footer-sec3{
+	border: 1px solid red;
+	width: 16%;
+	line-height: 40px;
+}
+.footer-sec3 h5{
+	font-size: 20px;
+}
+.footer-sec3 iconify-icon{
+	color: #ffc107;
+}
+.footer-sec3 li{
+	padding-left: 5px;
+	list-style-type: none;
+}
+
+.footer-sec4{
+	background-color: #f9f95aa6;
+	width: 35%;
+	padding-left: 20px;
+}
+.footer-sec4 h5{
+	padding-top: 10px;
+	font-size: 20px;
+}
+.footer-sec4 p{
+	padding-top: 20px;
+}
+.footer-sec4 div{
+	margin-top: 30px;
+	border: 1px solid #ccc;
+	border-radius: 25px;
+	height: 40px;
+	width: 90%;
+	background-color: white;
+}
+.footer-sec4 input{
+	border: transparent;
+	padding: 2px;
+	margin-left: 10px;
+	height: 20px;
+	font-size: 15px;
+	width: 250px;
+	background-color: transparent;
+}
+.footer-sec4 input:focus{
+	outline: none;
+}
+.footer-sec4 button{
+	height: 40px;
+	width: 26%;
+	color: white;
+	cursor: pointer;
+	padding-left: 0px;
+	border-radius: 25px;
+	border-color: transparent;
+	background-color: #ffc107;
+}
+footer{
+	padding-top: 30px;
+	background-color: #f3f1f1;
+	height: 10vh;
+}
+.content-footer{	
+	display: flex;
+	justify-content: space-between;
+}
+.footer-right b{
+	color: #ffc107;:;
+}
+.footer-left iconify-icon{
+	font-size: 3vh;
+	padding: 10px;
+	border-radius: 50%;
+	color: #414c64;
+	background-color: #ccc;
+}
+.footer-left iconify-icon:hover{
+	transition: all 0.5s ease;
+	background-color: #ffc107;
+}
