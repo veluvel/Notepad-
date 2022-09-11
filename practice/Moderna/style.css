@@ -1,9 +1,8 @@
 *{
 	margin:0px;
+	padding: 0;
 }
 .container{
-	
-	/*padding:0px;*/
 	margin:auto;
 	width:85%;
 }
@@ -17,8 +16,8 @@
 }
 
 #body:hover{
-	opacity:0.8;
-	transition:0.1s ease;
+	opacity:0.9;
+	transition:1s ease;
 }
 .menu{
 	
@@ -54,6 +53,7 @@ header{
 
 
 .title h2:hover{
+	
 	color:#6eabbd;
 }
 .navbar{
@@ -294,10 +294,18 @@ button .btn{
 .section-3{
 	background-color:#F0EDA5;
 	margin-top:30px;
+	font-family: "Roboto", sans-serif;
 }
 
 .about{
 	text-align:center;
+}
+.features h4{
+	padding: 30px 0;
+	font-size: 25px;
+}
+.features p{
+
 }
 .about-1{
 	margin-top:30px;
@@ -307,9 +315,11 @@ button .btn{
 	border:1px solid black;
 }
 .des-1{
-	padding-top:100px;
-	padding-right:30px;
-	padding-left:30px;
+	padding:60px 30px 0px 30px;
+}
+iconify-icon{
+	font-size: 10px;
+	color: blue;
 }
 
 .about-2{
@@ -320,9 +330,7 @@ button .btn{
 	border:1px solid black;
 }
 .des-2{
-	padding-top:100px;
-	padding-left:30px;
-	padding-right:30px;
+	padding:60px 30px 0px 30px;
 }
 
 .about-3{
@@ -333,11 +341,8 @@ button .btn{
 	border:1px solid black;
 }
 .des-3{
-	padding-top:100px;
-	padding-left:30px;
-	padding-right:30px;
+	padding:60px 30px 0px 30px;
 }
-
 .about-4{
 	margin-top:30px;
 	display:flex;
@@ -346,7 +351,5 @@ button .btn{
 	border:1px solid black;
 }
 .des-4{
-	padding-top:100px;
-	padding-left:30px;
-	padding-right:30px;
+	padding:60px 30px 0px 30px;
 }
