@@ -292,7 +292,7 @@ button .btn{
 
 
 .section-3{
-	background-color:#F0EDA5;
+	background-image: linear-gradient(#A57ED8, red);
 	margin-top:30px;
 	font-family: "Roboto", sans-serif;
 }
@@ -352,4 +352,9 @@ iconify-icon{
 }
 .des-4{
 	padding:60px 30px 0px 30px;
+}
+
+.section-4{
+	background-color: #0d2735;
+	height: 100vh;
 }
