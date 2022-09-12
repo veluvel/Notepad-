@@ -101,13 +101,6 @@ button{
 	border-radius:50px;
 	border-width:thin;
 }	
-	
-	/*
-	border-bottom-left-radius:20px;
-	border-top-left-radius:5px;
-	border-top-right-radius:20px;
-	border-bottom-right-radius:5px;
-	*/
 
 button:hover{
 	cursor:pointer;
@@ -209,7 +202,6 @@ button .btn{
 
 .aa{
 	border:5px dashed white;
-/*	padding:60px 0; */
 	display:flex;
 	justify-content:space-between;
 }
@@ -218,7 +210,6 @@ button .btn{
 	width:90%;
 	height:auto;
 	padding:15px;
-	/*background-color:blue;*/
 }
 
 .aa1{
@@ -228,7 +219,6 @@ button .btn{
 	margin-right:10px;
 	padding:15px;
 	margin-top:80px;
-/*	background-color:red;*/
 }
 
 .aa2{
@@ -292,7 +282,7 @@ button .btn{
 
 
 .section-3{
-	background-image: linear-gradient(#A57ED8, red);
+	background-image: linear-gradient(#A57ED8, #fff);
 	margin-top:30px;
 	font-family: "Roboto", sans-serif;
 }
@@ -357,4 +347,107 @@ iconify-icon{
 .section-4{
 	background-color: #0d2735;
 	height: 100vh;
+	color: white;
+	padding-top: 20px;
+	margin: 20px 0px;
+}
+.footer-section{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+
+
+#footer-section{
+	width: 100%;
+	height: 55vh;
+	margin-top: 10vh;
+	padding-top: 1vh;
+}
+.footer-section-1{
+	display:flex;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+.footer-sec1{
+	border: 1px solid red;
+	padding: 10px;
+	width: 16%;
+}
+.footer-sec1 h3{
+	padding-bottom: 15px;
+	font-size: 20px;
+}
+.footer-sec2{
+	border: 1px solid red;
+	width: 16%;
+	line-height: 40px;
+}
+.footer-sec2 h5{
+	font-size: 20px;
+}
+.footer-sec2 iconify-icon{
+	color: #ffc107;
+}
+.footer-sec2 li{
+	padding-left: 5px;
+	list-style-type: none;
+}
+
+.footer-sec3{
+	border: 1px solid red;
+	width: 16%;
+	line-height: 40px;
+}
+.footer-sec3 h5{
+	font-size: 20px;
+}
+.footer-sec3 iconify-icon{
+	color: #ffc107;
+}
+.footer-sec3 li{
+	padding-left: 5px;
+	list-style-type: none;
+}
+
+.footer-sec4{
+	width: 35%;
+	padding-left: 20px;
+}
+.footer-sec4 h5{
+	padding-top: 10px;
+	font-size: 20px;
+}
+.footer-sec4 p{
+	padding-top: 20px;
+} /*
+.footer-sec4 div{
+	margin-top: 30px;
+	border: 1px solid #ccc;
+	border-radius: 25px;
+	height: 40px;
+	width: 90%;
+	background-color: white;
+}
+.footer-sec4 input{
+	border: transparent;
+	padding: 2px;
+	margin-left: 10px;
+	height: 20px;
+	font-size: 15px;
+	width: 250px;
+	background-color: transparent;
+}
+.footer-sec4 input:focus{
+	outline: none;
+}
+.footer-sec4 button{
+	height: 40px;
+	width: 26%;
+	color: white;
+	cursor: pointer;
+	padding-left: 0px;
+	border-radius: 25px;
+	border-color: transparent;
+	background-color: #ffc107;
 }
