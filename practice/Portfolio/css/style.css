@@ -123,3 +123,25 @@ nav li{
 	margin:2rem 0;
 	height:55vh;
 }
+.icon{
+	margin-bottom:1rem;
+	text-align:center;
+}
+.icon i{
+	font-size:40px;
+	padding:10px;
+	border:4px solid black;
+}
+.web{
+	text-align:center;
+}
+.web h2{
+	padding:0.4rem 0;
+	margin-bottom:0.5rem;
+}
+.web p{
+	margin-bottom:1rem;
+	color: #4e4e4e;
+	line-height:1.5rem;
+	
+}
