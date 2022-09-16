@@ -1,5 +1,6 @@
 body{
 	margin:0px;
+	background-color: #f5f5f5
 }
 .container{
 	margin:0 9%;
@@ -16,6 +17,29 @@ body{
 .justifycontentspacebetween{
 	justify-content:space-between;
 }
+.margin-top{
+	margin-top: 4rem;
+}
+.margin-left{
+	margin-left: 4rem;
+}
+.margin-right{
+	margin-right: 4rem;
+}
+.margin-bottom{
+	margin-bottom: 4rem;
+}
+.lang-known{
+	width: 100%;
+	background-color: #cde1f8; /*#0078ff*/
+	height: 0.8rem;
+}
+span{
+		font-weight: 700;
+		font-size: 1.2rem;
+}
+
+
 /* --header tag start -- */
 header{
 	background-color: rgba(0,0,0,0.5);
@@ -71,21 +95,43 @@ nav li{
 }
 
 /*main tag*/
+
 /*about section*/
 .about{
-	background-color: yellow;
+	background-color: white;
+	margin: 5% 9%;
+	
+	box-shadow:  0 2px 5px 0 rgb(0 0 0 / 20%);
 }
 .left-side{
-	width: 50%;
+	width: 49%;
+	padding: 10px;
 }
 .right-side{
-	width: 50%;
+	width: 49%;
+	padding: 10px;
+}
+.right-side h2{
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.about-profile-1 img{
+	border-radius: 0.5rem;
+}
+.right-side div{
+	top: 0;
+	background-color: #0078ff;
+	width: 5rem;
+	height: 0.15rem;
+}
+.html85{
+	width: 85%;
+	background-color: #0078ff;
+	height: 0.8rem;
 }
 
 
-
-
-
+/**
 .servicecontent{
 	width:100%;
 }
