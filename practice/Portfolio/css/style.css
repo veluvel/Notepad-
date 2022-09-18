@@ -53,7 +53,7 @@ body{
 }
 /* --header tag starting -- */
 header{
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgb(0,0,0);
 	color: white;
 	position: fixed;
 	width: 100%;
@@ -288,6 +288,7 @@ nav li{
 /* ----blog section start--- */
 .blog-flex{
 	width: 100%;
+	margin-left: 0;
 	position: relative;
 }
 .blog-content{
@@ -331,18 +332,35 @@ nav li{
 	width: 8%;
 	height: 8%;
 	border-radius: 50%;
-	
 }
 .img-details p{
 	position: absolute;
 	left: 3.2rem;
-	
 	font-size: 18px;
-	
 }
 .img-details i{
 	font-size: 1.2rem;
 	position: absolute;
 	right: 1.5rem;
 	top: 1rem;
+}
+/*---contact section starting---*/
+.contact{
+	background-image: url("../img/overlay-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 90vh;
+	background-attachment: fixed;
+	position: relative;
+	justify-content: center;
+}
+.contact::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #0078ff;
+	opacity: 0.7;
 }
