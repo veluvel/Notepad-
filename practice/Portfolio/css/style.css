@@ -345,6 +345,7 @@ nav li{
 	top: 1rem;
 }
 /*---contact section starting---*/
+/*
 .contact{
 	background-image: url("../img/overlay-bg.jpg");
 	background-size: cover;
@@ -364,3 +365,178 @@ nav li{
 	background-color: #0078ff;
 	opacity: 0.7;
 }
+.contact-details{
+	margin-bottom: 5rem;
+}
+.contact-left{
+	z-index: 1;
+	background-color: white;
+    position: relative;
+
+}
+.contact-left h2{
+	padding-top: 5rem;
+}
+.contact-left div{
+	top: 0;
+	background-color: #0078ff;
+	width: 5rem;
+	height: 0.15rem;
+} */
+.send{
+	background-image:url(../image/overlay-bg.jpg);
+	background-attachment:fixed;
+	width:100%;
+	height:110vh;
+	position:relative;
+	background-size:cover;
+}
+.send::after{
+	content:"";
+	position:absolute;
+	opacity:0.7;
+	background-color:#0078ff ;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+.sendflex{
+	position:relative;
+	z-index:1;
+	background-color:#fff;
+	display:flex;
+	justify-content:space-between;
+	padding:20px 50px;
+	width:100%;
+	height:85vh;
+}
+.none{
+	padding:8rem  0;
+}
+.form{
+	width:50%;
+	padding:0px 12px;
+}
+.formhead{
+	margin-bottom:3rem;
+}
+.formhead h5{
+	font-size:2rem;
+	margin-bottom:8px;
+	position:relative;
+}
+.formhead h5:before{
+	content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+	width:6rem;
+	bottom:-12px;
+	height:3px;
+}
+.formcontent input{
+	margin-bottom:1.5rem;
+	width:100%;
+	padding:10px 12px;
+}
+.formcontent .message{
+	height:7rem;
+	width:100%;
+	margin-bottom:2rem;
+}
+.formcontent .submit{
+	padding:15px 33px;
+	background-color:#0078ff;
+	border-radius:30px;
+	border:5px solid #0078ff;
+	font-size:1rem;
+	margin-left:10rem;
+	color:#fff;
+}
+.submit:hover{
+    border-color:#CDE1F8;
+    transition:0.4s;
+    background: #0078ff; 	
+}
+.touch{
+	width:50%;
+	padding:0px 12px;
+}
+.touchhead{
+	margin-bottom:3rem;
+}
+.touchhead h5{
+	font-size:2rem;
+	margin-bottom:8px;
+	position:relative;
+}
+.touchhead h5:before{
+	content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+	width:6rem;
+	bottom:-12px;
+	height:3px;
+}
+.touchcontent p{
+	font-size: 1.25rem;
+    font-weight: 300;
+	margin-bottom:1rem;
+	line-height:1.8rem;
+}
+.touchlist li{
+	list-style-type:none;
+	line-height:1.8rem;
+}
+.touchlist li span{
+	margin-right:10px;
+	color: #0078ff;
+}
+.touchicon{
+	padding: 1.5rem 0;
+}
+.ulicon{
+	width:100%;
+}
+.ulicon a{
+	color: #1e1e1e;
+    text-decoration: none;
+}
+.ulicon li{
+	list-style-type:none;
+	display:inline-block;
+}
+.ulicon i{
+	height: 40px;
+    width: 40px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    line-height: 1.6;
+    margin: 0 15px 0 0;
+	border:3px solid #0078ff;
+	padding:10px 10px;
+}
+.ulicon i:hover{
+	background-color:#0078ff;
+	border-color:#CDE1F8;
+	color:#fff;
+	transition:0.4s ease-in-out;
+}
+/*End od Send*/
+/*End of main*/
+footer{
+	padding: 25px 0;
+    background: #0062d3;
+	text-align:center;
+	color:#fff;
+}
+.copy{
+	margin-bottom: 0.4rem;
+}
+.boot a{
+	text-decoration:none;
+	color:#fff;
+}
+/*End of Footer*/
