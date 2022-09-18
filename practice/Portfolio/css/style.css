@@ -41,7 +41,6 @@ span{
 	background-color: white;
 	border-radius: 1rem;
 }
-
 /* --header tag start -- */
 header{
 	background-color: rgba(0,0,0,0.5);
@@ -55,8 +54,6 @@ nav{
 nav li{
 	list-style: none;
 }
-/* --header tag end -- */
-
 /* --banner start-- */
 .banner{
 	background-image:url("../img/hero-bg.jpg");
@@ -95,8 +92,6 @@ nav li{
 	background-color:rgba(0,0,0,0.6);
 	opacity:0.9;
 }
-
-/*main tag*/
 
 /*about section*/
 .about{
@@ -152,7 +147,6 @@ nav li{
 	background-color: #0078ff;
 	height: 0.8rem;
 }
-
 /* sevice section */
 .wrap-width{
 	width: 26%;
@@ -196,6 +190,56 @@ nav li{
 	background-color: #0078ff;
 	transition: all 0.5s ease;
 }
+/*achievements*/
+.achievements{
+	background-image: url("../img/counters-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 70vh;
+	background-attachment: fixed;
+	position: relative;
+}
+.achievements::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #0078ff;
+	opacity: 0.7;
+}
+.achiev-rewards{
+	position:relative;
+	z-index:1;
+	justify-content:space-between;
+}
+.reward-icon{
+	width: 24%;
+	font-size: 2rem;
+	color: white;
+	margin: 8rem auto;
+}
+.icon-style{
+	padding: 2rem;
+}
+.icon-style i{
+	padding: 1rem;
+	border-radius: 50%;
+	border: 0.7rem solid white;
+}
+/*
+ds{background-image:url("../img/hero-bg.jpg");
+	width:100%;
+	height:100vh;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	position:relative;
+	background-attachment: fixed;
+	z-index: -1;
+}
+*/
 
 
 /**
