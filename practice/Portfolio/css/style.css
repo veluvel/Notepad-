@@ -51,7 +51,7 @@ body{
 	height: 0.4rem;
 	background-color: #0078ff;
 }
-/* --header tag start -- */
+/* --header tag starting -- */
 header{
 	background-color: rgba(0,0,0,0.5);
 	color: white;
@@ -64,7 +64,7 @@ nav{
 nav li{
 	list-style: none;
 }
-/* --banner start-- */
+/* --banner starting-- */
 .banner{
 	background-image:url("../img/hero-bg.jpg");
 	width:100%;
@@ -102,8 +102,7 @@ nav li{
 	background-color:rgba(0,0,0,0.6);
 	opacity:0.9;
 }
-
-/*about section*/
+/*about section starting*/
 .about{
 	background-color: white;
 	margin: 5% 9%;
@@ -157,7 +156,7 @@ nav li{
 	background-color: #0078ff;
 	height: 0.8rem;
 }
-/* service section */
+/* service section starting*/
 .wrap-width{
 	width: 26%;
 }
@@ -200,7 +199,7 @@ nav li{
 	background-color: #0078ff;
 	transition: all 0.5s ease;
 }
-/*achievements*/
+/*achievements section stating*/
 .achievements{
 	background-image: url("../img/counters-bg.jpg");
 	background-size: cover;
@@ -240,7 +239,7 @@ nav li{
 	border-radius: 50%;
 	border: 0.67rem solid #cde1f8;
 }
-/*portfolio section start*/
+/*---portfolio section starting---*/
 .port-1{
 	box-shadow:  0px 5px 5px 0px rgba(0 0 0 / 20%);
 	width: 32%;
@@ -251,4 +250,99 @@ nav li{
 }
 .port-bottom i{
 	font-size: 2.5rem;
+}
+.port-1 a{
+	color: #0078ff;
+}
+/*---work section starting---*/
+.work{
+	background-image: url("../img/overlay-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 90vh;
+	background-attachment: fixed;
+	position: relative;
+	justify-content: center;
+}
+.work::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #0078ff;
+	opacity: 0.7;
+}
+.work div{
+	position: absolute;
+	z-index: 2;
+}
+.work-section{
+	margin-top: 10rem;
+	justify-content: center;
+}
+.work-section img{
+	border-radius: 50%;
+}
+/* ----blog section start--- */
+.blog-flex{
+	width: 100%;
+	position: relative;
+}
+.blog-content{
+	border: 1px solid silver;
+	width: 32%;
+	border-radius: 10px;
+	position: relative;
+}
+.blog-content img{
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.blog-top img{
+	background-image: url("../img/post-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 37vh;
+}
+.blog-top p{
+	margin-top: -22px;
+	margin-left: 8.5rem;
+	padding: 8px;
+	border-radius: 0.5rem;
+	font-size: 1rem;
+	background-color: #0078ff;
+	color: white;
+	z-index: 0;
+	display: in-line-block;
+    position: absolute;
+}
+.img-content{
+	padding-left: 1rem;
+}
+.img-details{
+	position: relative;
+}
+.img-details img{
+	padding: 1rem;
+	width: 8%;
+	height: 8%;
+	border-radius: 50%;
+	
+}
+.img-details p{
+	position: absolute;
+	left: 3.2rem;
+	
+	font-size: 18px;
+	
+}
+.img-details i{
+	font-size: 1.2rem;
+	position: absolute;
+	right: 1.5rem;
+	top: 1rem;
 }
