@@ -53,16 +53,33 @@ body{
 }
 /* --header tag starting -- */
 header{
-	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,50%);
 	color: white;
 	position: fixed;
 	width: 100%;
+	z-index: 2;
 }
 nav{
 	width: 62%;
 }
 nav li{
 	list-style: none;
+}
+nav li a{
+	text-decoration: none;
+	color: white;
+	position: relative;
+}
+nav li a .transition{
+	margin-top: 0.5rem;
+	width: 0.5rem;
+	height: 0.18rem;
+	background-color: transparent;
+}
+nav li a .transition:hover{
+	width: 2.8rem;
+	background: white;
+	transition: width 0.5s;
 }
 /* --banner starting-- */
 .banner{
@@ -345,15 +362,15 @@ nav li{
 	top: 1rem;
 }
 /*---contact section starting---*/
-/*
 .contact{
 	background-image: url("../img/overlay-bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 90vh;
+	height: 100vh;
 	background-attachment: fixed;
 	position: relative;
 	justify-content: center;
+	margin-top: 7rem;
 }
 .contact::after{
 	content: "";
@@ -366,23 +383,51 @@ nav li{
 	opacity: 0.7;
 }
 .contact-details{
-	margin-bottom: 5rem;
+	width: auto;
+	height: 90vh;
+	margin-top: 5rem;	
 }
 .contact-left{
+	width: 50%;
+	padding: 0 3rem;
+	margin-top: 5rem;
 	z-index: 1;
 	background-color: white;
-    position: relative;
-
 }
 .contact-left h2{
-	padding-top: 5rem;
+	padding-top: 1rem;
 }
 .contact-left div{
-	top: 0;
 	background-color: #0078ff;
 	width: 5rem;
 	height: 0.15rem;
-} */
+}
+.input-details{
+	margin-top: 2rem;
+}
+.input-details input{
+	width: 550%;
+	padding: 0.7rem;
+}
+.contact-right{
+	width: 50%;
+	padding: 0 1rem;
+	margin-top: 5rem;
+	z-index: 1;
+	line-height: 2rem;
+	background-color: white;
+}
+.contact-right div{
+	background-color: #0078ff;
+	width: 5rem;
+	height: 0.15rem;
+	margin-bottom: 2rem;
+}
+
+
+
+
+ /*
 .send{
 	background-image:url(../image/overlay-bg.jpg);
 	background-attachment:fixed;
@@ -524,8 +569,8 @@ nav li{
 	color:#fff;
 	transition:0.4s ease-in-out;
 }
-/*End od Send*/
-/*End of main*/
+
+
 footer{
 	padding: 25px 0;
     background: #0062d3;
@@ -539,4 +584,5 @@ footer{
 	text-decoration:none;
 	color:#fff;
 }
-/*End of Footer*/
+
+End of Footer*/
