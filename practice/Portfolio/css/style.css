@@ -409,6 +409,19 @@ nav li a .transition:hover{
 	width: 550%;
 	padding: 0.7rem;
 }
+.input-details .message{
+	width: 575%;
+	height: 15vh;
+}
+.input-details button{
+	margin-left: 30vh;
+	height: 7vh;
+	color: white;
+	background-color: blue;
+	padding: 20px;
+	border: 2px solid transparent;
+	border-radius: 40%;
+}
 .contact-right{
 	width: 50%;
 	padding: 0 1rem;
