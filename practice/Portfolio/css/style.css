@@ -420,7 +420,13 @@ nav li a .transition:hover{
 	width: 10rem;
 	background-color: #0078ff;
 	border-radius: 2rem;
-	border: 3px solid transparent;
+	border: 3px solid #cde1f8;;
+}
+.input-details button:hover{
+	border: 3px solid #0078ff;
+	background-color: #cde1f8;
+	color: #0078ff;
+	transition: all 0.8s ease;
 }
 .contact-right{
 	width: 50%;
@@ -437,16 +443,19 @@ nav li a .transition:hover{
 	margin-bottom: 2rem;
 }
 .ulicon{
-	letter-spacing: 2rem;
 	text-decoration: none;
 	list-style: none;
-	margin-left: 5rem;
 }
 .ulicon a{
+	text-align: center;
 	color: #0078ff;
 	font-size: 1.5rem;
 }
-
+.icon-border{
+	border: 4px solid #0078ff;
+	border-radius: 50%;
+	padding: 0.5rem;
+}
 
  /*
 .send{
