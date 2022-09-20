@@ -430,7 +430,7 @@ nav li a .transition:hover{
 	line-height: 2rem;
 	background-color: white;
 }
-.contact-right div{
+.contact-right .line{
 	background-color: #0078ff;
 	width: 5rem;
 	height: 0.15rem;
