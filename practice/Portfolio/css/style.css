@@ -414,13 +414,13 @@ nav li a .transition:hover{
 	height: 15vh;
 }
 .input-details button{
-	margin-left: 30vh;
+	margin-left: 25vh;
 	height: 7vh;
 	color: white;
-	background-color: blue;
-	padding: 20px;
-	border: 2px solid transparent;
-	border-radius: 40%;
+	width: 10rem;
+	background-color: #0078ff;
+	border-radius: 2rem;
+	border: 3px solid transparent;
 }
 .contact-right{
 	width: 50%;
@@ -436,8 +436,16 @@ nav li a .transition:hover{
 	height: 0.15rem;
 	margin-bottom: 2rem;
 }
-
-
+.ulicon{
+	letter-spacing: 2rem;
+	text-decoration: none;
+	list-style: none;
+	margin-left: 5rem;
+}
+.ulicon a{
+	color: #0078ff;
+	font-size: 1.5rem;
+}
 
 
  /*
