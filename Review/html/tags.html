@@ -100,7 +100,7 @@
 		<pre>
 			Text in a pre element
 			is displayed in a fixed-width
-			font,    and it preserves
+			font,     and it preserves
 			both spaces and
 			line breaks
 		</pre>
@@ -109,7 +109,7 @@
 	<!--Progress tag-process completed-->
     <h1>PROGRESS TAG</h1>
 		<label for="file">Downloading progress:</label>
-		<progress id="file" value="80" max="100"> 50% </progress>
+		<progress id="file" value="0.3"> 50% </progress>
 	<hr>
 	
     <!--q-quote tag-->
@@ -117,6 +117,17 @@
 		<p>All is <q>well</q> that ends <q>well</q>.</p>
 	<hr>
 	
+	<!--ruby tag,rp,rt-->
+	<h1>ruby rt rp</h1>	
+	<ruby>
+		漢 <rp>(</rp><rt>ㄏㄢ</rt><rp>)</rp>
+	</ruby>
+	<br><br>
+	<ruby>
+		vel<rp>(</rp><rt>murugan</rt><rp>)</rp>
+	</ruby>
+	
+	<hr>
 	<!--s tag-strike line-->
 	<h1>S TAG</h1>
 		<p><s>Only 50 tickets left!</s></p>
@@ -131,7 +142,7 @@
 	
 	<!--script-link js script-->
 	<h1>SCRIPT TAG</h1>
-		<script></script>
+		<script>link js file</script>
 		<p>used above body tag to link js</p>
     <hr>
 	
@@ -194,21 +205,23 @@
 	
     <!--sub tag-->
     <h1>SUB TAG</h1>
-		<p>This text contains <sub>subscript</sub> text.</p>
+		<p>This text contains <sub>subscript</sub> text.</p> <p>H<sub>2</sub>O</p>
     <hr>
+	
 	
 	<!--summary tag -->
 	<h1>SUMMARY TAG</h1>
     <details>
         <summary>Epcot Center</summary>
-        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+        <p>user can view and close</p>
     </details>
 	<hr>
 	
     <!--sup tag-->
     <h1>SUP TAG</h1>
-	<p>name<sup>color</sup>para</p>
+	<p>name<sup>color</sup>para</p> <p>A<sup>2</sup>+B<sup>2</sup></p>
     <hr>
+	
 	
 	<!--svg graphics designer-->
     <h1>The svg TAG</h1>
@@ -247,7 +260,7 @@
     
 	<!--textarea used to take the feedback comes within form -->
     <h1>TEXTAREA</h1>
-		<textarea id="" name="" rows="4" cols="50" placeholder="type your comment"></textarea>
+		<textarea id="" name="" rows="8" cols="100" placeholder="type your comment"></textarea>
 		<hr>
 	
     <!--time tag-->
@@ -257,12 +270,12 @@
 		<hr>
 		
 	<!--title tag -->
-    <h1>TITILE TAG</h1>
+    <h1>TITLE TAG</h1>
 		<p> Head of the page</p>
 	<hr>
 	
 	<!--track which is subtitle for video-->
-    <video width="320" height="240" controls>
+    <video width="320" height="240" CONTROLS>
 		<source src="forrest_gump.mp4" type="video/mp4">
 		<source src="forrest_gump.ogg" type="video/ogg">
 		<track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
@@ -270,22 +283,36 @@
 	</video>
 	<hr>
 
-	<!--<tt>tag teletype which is not used in HTML5 instead use kbd,var,code,samp-->
-	<h1>not used in html5</h1>
-    
+	<!--tt teletype-->
+	<h1>TT-TELETYPE</h1>
+		<p>The tag was used in HTML 4 to define teletype text.</p>
+		<p>This tag not used in html5</p>
+		<p>What to Use Instead?</p>
+		<p>Consider the <b>kbd</b> element (for keyboard input), the <b>var</b> element (for variables), the <b>code</b> element (for computer code), the <b>samp</b> element (for computer output), or use CSS instead.</p>
+	<hr>
 
-
-	<!--<u> which is underline-->  
-      <p>This is some <u>mispeled</u> text.</p>
-      <!--ul which is unordered list (bullet point) inside ul comes li-->
-        <ul>
+	<!--<u> which is underline--> 
+	<h1>U TAG</h1>
+		<p>This is some <u>mispeled</u> text.</p>
+	<hr>	
+	
+	<!--ul-->
+	<h1>ul tag</h1>
+		<ul>
             <li>coffee</li>
             <li>tea</li>
         </ul>
-        <!--var-variable which indicates the browser that it is methametical or programming which diplay in italic-->
-        <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var></p>
-        <!--wbr word break oppurtunity-->
-
+	<hr>
+        
+	<!--var-->
+	<h1>var tag</h1>
+		<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var></p>
+		<p> programming which diplay in italic</p>
+	<hr>
+	
+	<!--wbr word break oppurtunity-->
+	<h1>wbr tag</h1>
+		<p>The wbr tag is not sepertate the word <wbr>ssgsdfkjnsldkugjhlugh;dughlsjghaliuhgaiueghaliug;aiuebgaib </p>
 
 
 
