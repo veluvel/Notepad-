@@ -15,6 +15,10 @@
 		  font-style: italic;
 		  background-color: lightgray;
 		}
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
 </style>
 	<base href="https://www.w3schools.com" target="_blank">
 </head>
@@ -88,106 +92,134 @@
 		<bdi></bdi>
 	
 	<h2>Base tag</h2>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!
-	<quote>velmurugan </quote>
-	<h2>Base tag</h2>
+	<quote> velmurugan </quote>
 	
-	<h2>Base tag</h2>
+	<hr>
+	<!--Pre tag - preformmated text-->
+    <h1>PRE TAG</h1>
+		<pre>
+			Text in a pre element
+			is displayed in a fixed-width
+			font,    and it preserves
+			both spaces and
+			line breaks
+		</pre>
+	<hr>
+    
+	<!--Progress tag-process completed-->
+    <h1>PROGRESS TAG</h1>
+		<label for="file">Downloading progress:</label>
+		<progress id="file" value="80" max="100"> 50% </progress>
+	<hr>
 	
-	<h2>Base tag</h2>
-
-
-	<!--Pre tag which is preformmated text-->
-    <h1>The Pre Element</h1>
-    <pre>
-        Text in a pre element
-        is displayed in a fixed-width
-        font, and it preserves
-        both spaces and
-        line breaks
-    </pre>
-    <!--Progress tag use to see the how mush process completed-->
-    <h1>The Progress Element</h1>
-    <label for="file">Downloading progress:</label>
-    <progress id="file" value="50" max="100"> 50% </progress>
-    <!--q for quote tag used to quote the sentence-->
-    <h1>The q Element</h1>
-    <p>WWF's goal is to: <q> nature.</q>We hope they succeed.</p>
-    <!--s tag for strick line through it which denotes no longer-->
-    <h1>The s element</h1>
-    <p><s>Only 50 tickets left!</s></p>
-    <p>SOLD OUT!</p>
-    <!--samp for samplle output-->
-    <h1>The samp element</h1>
-    <p>Message from my computer:</p>
-    <p><samp>File not found.<br>Press F1 to continue</samp></p>
-    <!--script used for link js script-->
-    <script></script>
-    <p>used above body tag to link js</p>
-    <!--section used to seprate the content-->
-    <section><h1>section tag</h1></section>
-    <!--select tag used within formtag-->
-    <h1>The Select Element</h1>
-    <p>The select element is used to create a drop-down list.</p>
-    <form action="/action_page.php">
-       <label for="cars">Choose a car:</label>
-        <select name="cars" id="cars">
-           <option value="volvo">Volvo</option>
-           <option value="saab">Saab</option>
-           <option value="opel">Opel</option>
-           <option value="audi">Audi</option>
-        </select>
-    </form>
-    <!--small tag used to note some small text different-->
-    <h1>The small element</h1>
-    <p>This is some normal text.</p>
-    <p><small>This is some smaller text.</small></p>  
-    <!--source used within audio or video-->
-    <h1>The source element</h1>
+    <!--q-quote tag-->
+    <h1>Q TAG</h1>
+		<p>All is <q>well</q> that ends <q>well</q>.</p>
+	<hr>
+	
+	<!--s tag-strike line-->
+	<h1>S TAG</h1>
+		<p><s>Only 50 tickets left!</s></p>
+		<p>SOLD OUT!</p>
+    <hr>
+	
+	<!--samp-sample output-->
+    <h1>SAMP TAG</h1>
+		<p>computer-output:</p>
+		<p><samp>File not found.<br>Press F1 to continue</samp></p>
+    <hr>
+	
+	<!--script-link js script-->
+	<h1>SCRIPT TAG</h1>
+		<script></script>
+		<p>used above body tag to link js</p>
+    <hr>
+	
+	<!--SECTION TAG -->
+    <h1>SECTION TAG</h1>
+		<section>Its a semantic element </section>
+	<hr>
+	
+    <!--SELECT TAG-->
+    <h1>SELECT TAG</h1>
+	<p>The SELECT TAG is used to create a drop-down list.</p>
+		<form action="/action_page.php">
+		   <label for="cars">Choose a car:</label>
+			<select name="cars" id="cars">
+			   <option value="volvo">Volvo</option>
+			   <option value="saab">Saab</option>
+			   <option value="opel">Opel</option>
+			   <option value="audi">Audi</option>
+			</select>
+		</form>
+	<hr>
+	
+    <!--small tag-->
+    <h1>SMALL TAG</h1>
+		<p>This is normal text.</p>
+		<p><small>This is some smaller text.</small></p>  
+    <hr>
+	
+	<!--source used within audio or video-->
+    <h1>SOURCE TAG</h1>
     <p>Click on the play button to play a sound:</p>
-    <audio controls>
-      <source src="horse.ogg" type="audio/ogg">
-      <source src="horse.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-    <!--span used to style the particular content-->
-    <h1>The span element</h1>
-    <p>My mother has <span style="color:red">red color</span></p>
-    <!--strike not used in html5 instead used del-->
-    <h1>The del Element</h1>
-    <p>My favorite color is <del>blue</del></p>  
-    <!--strong used to denote some important word-->
-    <h1>The Strong Element</h1>
-    <p>This text is normal.</p>
-    <p><strong>This text is important!</strong></p>  
-    <!--style which is used within head tag to style the content-->
-    <h1>Style tag</h1>
-    <!--sub tag which comes some what down-->
-    <p>This text contains <sub>subscript</sub> text.</p>
-    <!--summary which is used within detail tag -->
+		<audio controls>
+			<source src="horse.ogg" type="audio/ogg">
+			<source src="horse.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+	<hr>
+	
+    <!--span TAG-->
+    <h1>SPAN TAG</h1>
+		<p>My mother has <span style="color:red">red color</span></p>
+    <hr>
+	
+	<!--strike tag-->
+    <h1>STRIKE TAG</h1>
+		<p>Strike tag not use in HTML5<del>blue</del></p>  
+    <hr>
+	
+	<!--strong tag-->
+    <h1>STRONG TAG</h1>
+		<p>This text is normal.</p>
+		<p><strong>This text is STRONG!</strong></p>  
+    <hr>
+	
+	<!--style tag-->
+    <h1>STYLE TAG</h1>
+		<P>The style tag is used to define style information (CSS) for a document.<br>
+		<p>Inside the style element you specify how HTML elements should render in a browser.</P>
+	<hr>
+	
+    <!--sub tag-->
+    <h1>SUB TAG</h1>
+		<p>This text contains <sub>subscript</sub> text.</p>
+    <hr>
+	
+	<!--summary tag -->
+	<h1>SUMMARY TAG</h1>
     <details>
         <summary>Epcot Center</summary>
         <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
     </details>
-    <!--sup tag which comes somewhat up-->
-    <p>name<sup>color</sup>para</p>
-    <!--svg graphics designer-->
-    <h1>The svg element</h1>
+	<hr>
+	
+    <!--sup tag-->
+    <h1>SUP TAG</h1>
+	<p>name<sup>color</sup>para</p>
+    <hr>
+	
+	<!--svg graphics designer-->
+    <h1>The svg TAG</h1>
        <svg width="100" height="100">
            <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow"/>Sorry, your browser does not support inline SVG.
        </svg>
-    <!--table used to create the table-->
-    <table>
-        <tr>
-          <th>Month</th>
-          <th>Savings</th>
-        </tr>
-        <tr>
-          <td>January</td>
-          <td>$100</td>
-        </tr>
-      </table>
+	<hr>
+	
     <!--tbody,thead,tfoot used within the table -->
-    <table style="border:2px solid black">
+    <h1>TABLE CONTENT</h1>
+	<table>
         <thead>
           <tr>
             <th>Month</th>
@@ -210,28 +242,45 @@
             <td>$180</td>
           </tr>
         </tfoot>
-      </table>  
-      <!--textarea used to take the feedback comes within form -->
-      <textarea id="" name="" rows="4" cols="50"></textarea>
-      <!--time to denote the browser thats the time-->
-      <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
-      <!--title which is used within the head tag -->
-      <p>see browser top</p>
-      <!--track which is subtitle for video-->
-      <video width="320" height="240" controls>
-        <source src="forrest_gump.mp4" type="video/mp4">
-        <source src="forrest_gump.ogg" type="video/ogg">
-        <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
-        <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
-      </video>
-      <!--<tt>tag teletype which is not used in HTML5 instead use kbd,var,code,samp-->
-        <h1>not used in html5</h1>
-      <!--<u> which is underline-->  
+      </table>
+	<hr>  
+    
+	<!--textarea used to take the feedback comes within form -->
+    <h1>TEXTAREA</h1>
+		<textarea id="" name="" rows="4" cols="50" placeholder="type your comment"></textarea>
+		<hr>
+	
+    <!--time tag-->
+	<h1>TIME TAG</h1>
+		<p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+		<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+		<hr>
+		
+	<!--title tag -->
+    <h1>TITILE TAG</h1>
+		<p> Head of the page</p>
+	<hr>
+	
+	<!--track which is subtitle for video-->
+    <video width="320" height="240" controls>
+		<source src="forrest_gump.mp4" type="video/mp4">
+		<source src="forrest_gump.ogg" type="video/ogg">
+		<track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+		<track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+	</video>
+	<hr>
+
+	<!--<tt>tag teletype which is not used in HTML5 instead use kbd,var,code,samp-->
+	<h1>not used in html5</h1>
+    
+
+
+	<!--<u> which is underline-->  
       <p>This is some <u>mispeled</u> text.</p>
       <!--ul which is unordered list (bullet point) inside ul comes li-->
         <ul>
-            <li></li>
-            <li></li>
+            <li>coffee</li>
+            <li>tea</li>
         </ul>
         <!--var-variable which indicates the browser that it is methametical or programming which diplay in italic-->
         <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var></p>
