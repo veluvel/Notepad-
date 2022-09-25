@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color:white;
+}
+.container{
+	width: 83%;
+	margin: auto;
+	padding: 1em 0rem;
+}
+.d-flex{
+	display: flex;
+}
+.j-c-s-b{
+	justify-content: space-between;
+}
+.j-c-s-a{
+	justify-content: space-around;
+}
+.head-section{
+	background-image: url(../img/hero-bg.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: -1;
+}
+.head-section::after{
+	content:"";
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color:rgba(0,0,0,0.6);
+	opacity:0.8;
+    z-index: -1;
+}
+header{
+	width: 100%;
+	background-color:rgba(0,0,0,0.6);
+}
+.title{
+	font-size: 1.7rem;
+	width: 20%;
+}
+.navbar{
+	width: 85%;
+}
+.navbar .btn{
+	background-color: red;
+	text-align: center;
+	padding: 0.7rem;
+	border-radius: 1rem;
+	text-decoration: none;
+}
+.navlist{
+	align-content: center;
+}
+.navbar ul{
+    padding: 0.4rem;
+	list-style: none;
+}
+.navbar ul li a{
+	text-decoration: none;
+	text-align: center;
+	padding: 1.2rem;
+	background-color: red;
+}
