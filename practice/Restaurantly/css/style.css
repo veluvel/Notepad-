@@ -44,20 +44,25 @@ header{
 }
 .title{
 	font-size: 1.7rem;
-	width: 20%;
+	width: 25%;
+	margin: auto;
 }
 .navbar{
 	width: 85%;
 }
 .navbar .btn{
+	width: 15%;
 	background-color: red;
 	text-align: center;
+	align-content: center;
 	padding: 0.7rem;
-	border-radius: 1rem;
+	font-size: 0.7rem;
+	border-radius: 2rem;
 	text-decoration: none;
 }
 .navlist{
-	align-content: center;
+	width: 86%;
+	margin: auto;
 }
 .navbar ul{
     padding: 0.4rem;
@@ -66,6 +71,5 @@ header{
 .navbar ul li a{
 	text-decoration: none;
 	text-align: center;
-	padding: 1.2rem;
-	background-color: red;
+	padding: 1rem;
 }
