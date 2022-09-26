@@ -7,7 +7,10 @@
 .container{
 	width: 83%;
 	margin: auto;
-	padding: 1em 0rem;
+	padding: 1rem 0rem;
+}
+.f-color{
+	color: #cda45e;
 }
 .d-flex{
 	display: flex;
@@ -18,6 +21,9 @@
 .j-c-s-a{
 	justify-content: space-around;
 }
+body{
+	font-family: "Open Sans", sans-serif;
+}
 .head-section{
 	background-image: url(../img/hero-bg.jpg);
 	height: 100vh;
@@ -25,7 +31,7 @@
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	position: relative;
-	z-index: -1;
+	z-index: 0;
 }
 .head-section::after{
 	content:"";
@@ -38,30 +44,44 @@
 	opacity:0.8;
     z-index: -1;
 }
-header{
-	width: 100%;
-	background-color:rgba(0,0,0,0.6);
+.head-content{
+	padding: 0.5rem 0rem;
+	font-size: 0.9rem;
 }
-.title{
+.head-content .top-info{
+	width: 33%;
+}
+.head-content li{
+	list-style: none;
+}
+header{
+	background-color:rgba(0,0,0,0.8);
+}
+.head-logo a{
+	font-family: "Open Sans", sans-serif;
 	font-size: 1.7rem;
-	width: 25%;
-	margin: auto;
+	width: 10%;
+	text-decoration: none;
 }
 .navbar{
 	width: 85%;
 }
 .navbar .btn{
 	width: 15%;
-	background-color: red;
+	border: 2px solid #cda45e;
 	text-align: center;
 	align-content: center;
-	padding: 0.7rem;
+	padding: 0.5rem;
 	font-size: 0.7rem;
 	border-radius: 2rem;
 	text-decoration: none;
 }
+.navbar .btn:hover{
+	background-color: #cda45e;
+	transition: all 0.5s ease;
+}
 .navlist{
-	width: 86%;
+	width: 80%;
 	margin: auto;
 }
 .navbar ul{
@@ -69,7 +89,12 @@ header{
 	list-style: none;
 }
 .navbar ul li a{
+	font-size: 0.9rem;
 	text-decoration: none;
 	text-align: center;
 	padding: 1rem;
+}
+.navbar ul li a:hover{
+	color: #cda45e;
+	transition: all 0.5s ease;
 }
