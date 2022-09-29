@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	cursor: pointer;
+	font-family: sans-serif;
+}
+body{
+	width: 100%;
+	min-height: 100vh;
+	background: black;
+	overflow: hidden;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 2rem;
+	color: white;
+	animation: header 2s ease-in-out;
+}
+@keyframes header{
+	0%{
+		transform: translateY(-100%) ; 
+	}
+}
+nav li{
+	display: inline-block;
+	margin: 1rem 2rem;
+	font-weight: 600;
+}
+.main{
+	width: 100%;
+	display: flex;
+}
+.content{
+	color: white;
+	width: 50%;
+	margin-top: 7%;
+	margin-left: 5%;
+	overflow: hidden;
+	animation: content 2s ease-in-out;
+}
+@keyframes content{
+	0%{
+		opacity: 0;
+		transform: translateX(-50%);
+	}
+}
+.content h1{
+	font-size: 6rem;
+	margin-bottom: 1%;
+	letter-spacing: 0.5rem;
+}
+.content h3{
+	font-size: 2rem;
+	margin-bottom: 3%;
+	font-family: verdana, geneva, sans-serif;
+}
+span{
+	color: yellow;
+}
+.content p{
+	font-size: 1.8rem;
+	margin-bottom: 3%;
+	font-family: verdana, geneva, sans-serif;
+}
+button{
+	padding: 1rem 2.5rem;
+	background: transparent;
+	color: white;
+	font-size: 1rem;
+	border:1px solid white;
+	border-radius: 0.5rem;
+}
+button:hover{
+	background: red;
+	border-color: red;
+}
+.image{
+	width: 50%;
+	margin-top: 7%;
+	z-index: -1;
+}
+img{
+	width: 40rem;
+	animation: car 5s ease-in-out;
+}
+@keyframes car{
+	0%{
+		transform: translateX(100%);
+	}
+	100%{
+		transform: translateX(-220%);
+	}
+}
+/*large display*/
