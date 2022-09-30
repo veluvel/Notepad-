@@ -9,68 +9,109 @@
 <body>
 	<h1>The Form Element</h1>
 	<form action="/action_page.php">
-		<fieldset> <legend>FORUM</legend>
-		
-		<label for="fname">First name:</label>
-		<input type="text" id="fname" name="fname" placeholder="velmurugan" maxlength="10" size="30"><br><br>
-		<label for="lname">Last name:</label>
-		<input type="text" id="lname" name="lname" maxlength="10" size="30"><br><br>
-		<p>Input-Type-Checkbox</p>
-		<input type="checkbox" name="vehicle1" value="Bike">
-		<label for="vehicle1"> I have a bike</label>
-		<input type="checkbox" name="vehicle2" value="Car">
-		<label for="vehicle2"> I have a car</label>
-		<input type="checkbox" name="vehicle3" value="Boat" checked>
-		<label for="vehicle3"> I have a boat</label><br><br>
-		
-		<label for="colors"> Select color :</label>
-		<input type="color" name="colors"> <br><br>
-		
-		<label for="birthday">Date</label>
-		<input type="date" id="birthday"><br><br>
-		
-		<label for="birthday-time">Date-Time</label>
-		<input type="datetime-local" id="birthday-time"><br><br>
-		
-		<label for="email">Email:</label>
-		<input type="email" id="email"required><br><br> 
-		
-		<label for="file">Choose File:</label>
-		<input type="file" id="file"><br><br>
-		
-		<label for="">Hidden File:</label>
-		<input type="hidden"><br><br>
-		
-		<label for="image">Submit button :</label>
-		<input type="image" id="image" src="./img_submit.gif" alt="Submit" width="30" height="30"><br><br>
-		
-		<label for="submit">Month :</label>
-		<input type="month" id="month"><br><br>
-		
-		<label for="number">Number :</label>
-		<input type="number" id="number"><br><br>
-		
-		<label for="pwd">Password :</label>
-		<input type="password" id="pwd" name="pwd" ><br><br>
-		
-		<p>RadiO ButtoN</p>
-		<input type="radio" id="age1" name="age" value="30">
-		<label for="age1">0 - 30</label><br>
-		<input type="radio" id="age2" name="age" value="60">
-		<label for="age2">31 - 60</label><br>  
-		<input type="radio" id="age3" name="age" value="100">
-		<label for="age3">61 - 100</label><br>
-		
-		<input type="range"><br><br>
-		<input type="reset"><br><br>
-		<input type="search"><br><br>
-		<input type="submit"><br><br>
-		<input type="tel"><br><br>
-		<input type="text"><br><br>
-		<input type="time"><br><br>
-		<input type="url"><br><br>
-		<input type="week"><br><br>
-	</form>
-
+		<fieldset> <legend><h2>PRACTICE</h2></legend>
+		<table>
+			<tr>
+				<td><label for="fname">FIRST NAME </label></td>
+				<td>: <input type="text" id="fname" name="fname" placeholder="Enter First Name" maxlength="10" size="30"></td>
+			</tr>
+			<tr>
+				<td><label for="lname">LAST NAME </label></td>
+				<td>: <input type="text" id="lname" name="lname" placeholder="Enter Second Name" maxlength="10" size="30"></td>
+			</tr>
+			<tr>
+				<td><label for="checkbox">LANGUAGE- KNOWN</label></td>
+				<td>:
+					<input type="checkbox" name="lang1" value="Bike">
+					<label for="lang1"> HTML</label>
+					<input type="checkbox" name="lang2" value="Car">
+					<label for="lang2"> CSS</label>
+					<input type="checkbox" name="lang3" value="Boat" checked>
+					<label for="lang3"> JS</label>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="colors"> SELECT COLOR </label></td>
+				<td>: <input type="color" name="colors"></td>
+			</tr>
+			<tr>
+				<td><label for="datemax">DATE-max</label></td>
+				<td>: <input type="date" id="damax" min="2022-05-06"></td>
+			</tr>
+			<tr>
+				<td><label for="date">DATE-min</label></td>
+				<td>: <input type="date" id="datemin" max="1997-05-06"></td>
+			</tr>
+			<tr>
+				<td><label for="birthday-time">DATE-TIME</label></td>
+				<td>: <input type="datetime-local" id="birthday-time"></td>
+			</tr>
+			<tr>
+				<td><label for="email">EMAIL</label></td>
+				<td>: <input type="email" id="email" size="30" placeholder="Type Email" required> </td>
+			</tr>
+			<tr>
+				<td><label for="file">CHOOSE FILE</label></td>
+				<td>: <input type="file" id="files" name="files" multiple></td>
+			</tr>
+			<tr>
+				<td><label for="">HIDDEN FILE</label></td>
+				<td>: <input type="hidden"></td>
+			</tr>
+			<tr>
+				<td><label for="image">SUBMIT BUTTON</label></td>
+				<td>: <input type="image" id="image" src="./img_submit.gif" alt="Submit" width="30" height="30"></td>
+			</tr>
+			<tr>
+				<td><label for="submit">MONTH</label></td>
+				<td>: <input type="month" id="month"></td>
+			</tr>
+			<tr>
+				<td><label for="quantity">NUMBER</label></td>
+				<td>: <input type="number" id="quantity" name="quantity" min="1" max="5"></td>
+			</tr>
+			<tr>
+				<td><label for="pwd">PASSWORD</label></td>
+				<td>: <input type="password" id="pwd" name="pwd" ></td>
+			</tr>
+			<tr>
+				<td>RADIO</td>
+				<td>: 
+					<input type="radio" id="age1" name="age" value="30">
+					<label for="age1">0 - 30</label>
+					<input type="radio" id="age2" name="age" value="60">
+					<label for="age2">31 - 60</label>  
+					<input type="radio" id="age3" name="age" value="100">
+					<label for="age3">61 - 100</label>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="search">SEARCH</label></td>
+				<td>: <input type="search"></td>
+			</tr>
+			<tr>
+				<td><label for="tel">CELL NO</label></td>
+				<td>: <input type="tel"></td>
+			</tr>
+			<tr>
+				<td><label for="text1">TEXT(Default)</label></td>
+				<td>: <input type="text" id="text1"></td>
+			</tr>
+			<tr>
+				<td><label for="time">TIME</label></td>
+				<td>: <input type="time" id="time"></td>
+			</tr>
+			<tr>
+				<td><label for="homepage">HOMEPAGE</label></td>
+				<td>: <input type="url" id="homepage" name="homepage" required></td>
+			</tr>
+			<tr>
+				<td><label for="week">SELECT WEEK</label></td>
+				<td>: <input type="week" id="week"></td>
+			</tr>
+		</table><br>
+		<input type="reset">
+		<input type="submit">
+	</form>	
 </body>
 </html>
