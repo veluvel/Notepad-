@@ -21,10 +21,11 @@
 .j-c-s-a{
 	justify-content: space-around;
 }
+
 body{
 	font-family: "Open Sans", sans-serif;
 }
-.head-section{
+header{
 	background-image: url(../img/hero-bg.jpg);
 	height: 100vh;
 	background-size: cover;
@@ -32,8 +33,9 @@ body{
 	background-repeat: no-repeat;
 	position: relative;
 	z-index: 0;
+	display: block;
 }
-.head-section::after{
+header::after{
 	content:"";
 	position:absolute;
 	top:0;
@@ -47,15 +49,24 @@ body{
 .head-content{
 	padding: 0.5rem 0rem;
 	font-size: 0.9rem;
+	
+	top: 0;
 }
 .head-content .top-info{
 	width: 33%;
 }
 .head-content li{
 	list-style: none;
+	
 }
-header{
+.head-section{
 	background-color:rgba(0,0,0,0.8);
+	font-family:"Poppins",sans-serif;
+	align-items:center;
+	z-index:99;
+	position: ;
+	left: 0;
+	right: 0;
 }
 .head-logo a{
 	font-family: "Open Sans", sans-serif;
@@ -99,5 +110,79 @@ header{
 	transition: all 0.5s ease;
 }
 .banner-content{
-	margin-top: 13%;
+	margin: 12% auto;
+}
+.banner-content h1{
+	font-weight: 1000;
+	font-size: 3rem;
+}
+.banner-content p{
+	font-weight: 500;
+	font-size: 20px;
+	padding-bottom: 2rem;
+}
+.banner-btn{
+	text-decoration: none;
+	padding: 0.5rem 2rem;
+	font-size: 12px;
+	font-weight: bold;
+	border: 2px solid #cda45e;
+	border-radius: 30px;
+}
+.banner-btn:hover{
+	background: #cda45e;
+	transition: all 0.5s ease;
+} 
+/* about section*/
+.about-section{
+	background-color: ;
+	background-image: url(../img/about-bg.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 0;
+}
+.about-section:after{
+	content:"";
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color:rgba(0,0,0,0.6);
+	opacity:0.8;
+    z-index: -1;
+}
+.about{
+	padding-top: 8%;
+	position: relative;
+}
+.about-content{
+	width: 50%;
+	position: absolute;
+	left: 0;
+}
+.about-content h1{
+	font-size: 26px;
+	font-family: timesnewroman;
+	padding: 0 0 8px;
+}
+.about-content p{
+	margin: 0 0 16px;
+}
+.about-content .ul-type{
+	font-size: 1.1rem;
+}
+.ul-type .pad{
+	padding: 0 0 10px;
+}
+.about-image{
+	width: 50%;
+	position: absolute;
+	right: 0;
+}
+.about-image .image{
+	width: 100%;
 }
