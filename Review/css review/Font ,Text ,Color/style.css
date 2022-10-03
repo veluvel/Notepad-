@@ -1,0 +1,51 @@
+/*font properties*/
+body{
+	background-color:#F9EBEA;
+	}
+.head1{
+	color:white;
+	font-family:Bahnschrift Light;
+	background-color:#2A2427;
+	padding:5px;
+	text-align:center;
+	}
+.div{
+	font-family:Calibri;
+	}
+.head2{
+	color:#14116D;
+	font-family:Castellar;
+	background-color:#EAEC9D;
+	}
+.prop{
+	color:red;
+	font-family:Mistral;
+	font-size:25px;
+	background-color:#ECEEBA;
+	}
+.head3{
+	color:red;
+	font-family:Segoe Script;
+    background-color:#ECEEBA;
+	}
+.name{
+	font-family: Algerian;
+	}
+.style{
+	font-style:italic;
+	}
+.varient{
+	font-variant:small-caps;
+	}
+.weight{
+	font-weight:bold;
+	}
+.size{
+	font-size:20px;
+	}
+.color{
+	color:red;
+	}
+.fontall{
+	font: italic 12pt arial;
+	}
