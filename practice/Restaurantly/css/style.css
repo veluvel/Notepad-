@@ -137,7 +137,8 @@ header::after{
 .about-section{
 	background-color: ;
 	background-image: url(../img/about-bg.jpg);
-	height: 100vh;
+	height: 90vh;
+	padding: ;
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -156,13 +157,15 @@ header::after{
     z-index: -1;
 }
 .about{
-	padding-top: 8%;
+	padding-top: 6%;
 	position: relative;
 }
 .about-content{
 	width: 50%;
 	position: absolute;
 	left: 0;
+	margin: 0 1rem 0 0;
+	line-height: 1.6rem;
 }
 .about-content h1{
 	font-size: 26px;
@@ -174,6 +177,10 @@ header::after{
 }
 .about-content .ul-type{
 	font-size: 1.1rem;
+	list-style: none;
+}
+.about-content .p-tag{
+    margin: 18px 0 0 0;
 }
 .ul-type .pad{
 	padding: 0 0 10px;
@@ -185,4 +192,9 @@ header::after{
 }
 .about-image .image{
 	width: 100%;
+	border: 4px solid rgb(255 255 255 / 20%);
+	margin: 0 0 0 1rem;
 }
+.about-image:hover{
+	transform: scale(1.05);
+	transition: all 0.5s ease;
