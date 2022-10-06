@@ -198,3 +198,82 @@ header::after{
 .about-image:hover{
 	transform: scale(1.05);
 	transition: all 0.5s ease;
+}
+.why_us{
+	background: #0c0b09;
+	padding: ;
+}
+.why_us_title{
+	padding: ;
+}
+.why_us_title .line{
+	color: #6c757d;
+	position: relative;
+	padding: 2rem 0 0;
+}
+.why_us_title .line::after{
+	content: '';
+	width: 10%;
+	height: 1px;
+	top: 80%;
+	left: 7%;
+	background: #808080a1;
+	position: absolute;
+	float: left;
+}
+.why_us_title .h2{
+	color: #cda45e;
+	font-size: 2.5rem;
+	padding: 0 0 2rem;
+	font-family: "Playfair Display", serif;
+}
+.why_us_content{
+	gap: 25px;
+}
+.why_us-1{
+	padding: 50px 30px;
+	width: 33%;
+	background: #1a1814;
+	margin: 0 0 3rem;
+}
+.why_us-1:hover{
+	background: #cda45e;
+	color: white;
+	padding: 40px 30px;
+	transition: all 1.5s ease;
+}
+.why_us-1:hover h1{
+	color: white;
+}
+.why_us-1:hover h2{
+	color: white;
+}
+.why_us_content h1{
+	color: #cda45e;
+	font-family: timesnewroman;
+	font-size: 2rem;
+}
+.why_us_content h2{
+	color: #b5b2b2;
+	padding: 20px 0;
+}
+/*menu section start*/
+.menu{
+	background: #1a1814;
+}
+.menu_title .line{
+	color: #6c757d;
+	
+	position: relative;
+	padding: 2rem 0 0;
+}
+.menu_title .line::after{
+	content: '';
+	width: 10%;
+	height: 1px;
+	top: 80%;
+	left: 7%;
+	background: #808080a1;
+	position: absolute;
+	float: left;
+}
