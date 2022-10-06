@@ -219,7 +219,6 @@ header::after{
 	left: 7%;
 	background: #808080a1;
 	position: absolute;
-	float: left;
 }
 .why_us_title .h2{
 	color: #cda45e;
@@ -275,5 +274,25 @@ header::after{
 	left: 7%;
 	background: #808080a1;
 	position: absolute;
-	float: left;
+}
+.menu_title .h2{
+	color: #cda45e;
+	font-size: 2.5rem;
+	padding: 0 0 2rem;
+	font-family: "Playfair Display", serif;
+}
+.menu_types{
+	text-align: center;
+}
+.menu_types a{
+	text-decoration: none;
+	padding: 1%;
+	font-family: "Playfair Display", serif;
+}
+.menu_types a:hover{
+	color: #cda45e;
+	transition: all 0.5s ease;
+}
+.dishes{
+	width: 50%;
 }
