@@ -1,0 +1,53 @@
+.container{
+	margin: 30px 20px;
+}
+body{
+	font-family: 'roboto', sans-serif;
+}
+
+/* header section start*/
+header{
+	line-height: 20px;
+	text-align: center;
+}
+header h1{
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+header h2{
+	font-size: 0.7rem;
+}
+header p{
+	font-size: 0.7rem;
+}
+/*head section media start*/
+@media (min-width: 768px){
+header{
+	line-height: 1.5rem;
+}
+header h1{
+	font-size: 1.5rem;
+	}
+header h2{
+	font-size: 0.8rem;
+	}
+header p{
+	font-size: 0.8rem;
+	}
+}
+@media (min-width: 1024px){
+header{
+	line-height: 2rem;
+}
+header h1{
+	font-size: 2rem;
+	}
+header h2{
+	font-size: 1rem;
+	}
+header p{
+	font-size: 1rem;
+	}
+}
+/*head section media end*/
+/* header section end*/
