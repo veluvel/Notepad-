@@ -215,4 +215,58 @@ header p{
 /*media end */
 /*academic section end*/
 
-
+/*skill section start*/
+.skill h2{
+	font-size: 0.8rem;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+.skill table td{
+	border: 1px solid grey;
+	padding: 0.5rem;
+}
+.skill table h3{
+	font-size: 0.7rem;
+	font-weight: bold;
+	padding-bottom: 0.1rem;
+}
+.skill table p{
+	font-size: 0.6rem;
+}
+.skill table .name{
+	width: 100%;
+}
+.skill table .duration{
+	width: 10;
+}
+.skill ul{
+	list-style: disc;
+}
+.skill li{
+	margin-left: 2rem;
+	font-size: 0.6rem; 
+}
+/*media start*/
+@media (min-width: 390px){
+	.skill h2{
+		font-size: 1.1rem;
+		font-weight: bold;
+		padding-bottom: 0.5rem;
+	}
+	.skill table td{
+		border: 1px solid grey;
+		padding: 0.5rem;
+	}
+	.skill table h3{
+		font-size: 0.8rem;
+		font-weight: bold;
+		padding-bottom: 0.1rem;
+	}
+	.skill table p{
+		font-size: 0.7rem;
+	}
+	.skill table .name{
+		}
+}
+/*media end*/
+/*skill section end*/
