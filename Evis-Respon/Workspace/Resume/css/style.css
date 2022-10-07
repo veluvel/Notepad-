@@ -23,58 +23,58 @@ header p{
 }
 /*head section media start*/
 @media (min-width: 390px){
-.container{
-	margin: 25px 20px;
-}
-header{
-	line-height: ;
-}
-header h1{
-	font-size: 1.5rem;
-	padding-bottom: 0.5rem;
+	.container{
+		margin: 25px 20px;
 	}
-header h2{
-	font-size: 0.8rem;
-	padding-bottom: 0.2rem;
+	header{
+		line-height: ;
 	}
-header p{
-	font-size: 0.7rem;
+	header h1{
+		font-size: 1.5rem;
+		padding-bottom: 0.5rem;
+	}
+	header h2{
+		font-size: 0.8rem;
+		padding-bottom: 0.2rem;
+	}
+	header p{
+		font-size: 0.7rem;
 	}
 }
 @media (min-width: 768px){
-.container{
-	margin: 25px 30px;
-}
-header{
-	line-height: 1.5rem;
-}
-header h1{
-	font-size: 2rem;
-	padding-bottom: 0.5rem;
+	.container{
+		margin: 25px 30px;
 	}
-header h2{
-	font-size: 1rem;
+	header{
+		line-height: 1.5rem;
 	}
-header p{
-	font-size: 1rem;
+	header h1{
+		font-size: 2rem;
+		padding-bottom: 0.5rem;
+	}
+	header h2{
+		font-size: 1rem;
+	}
+	header p{
+		font-size: 1rem;
 	}
 }
-@media (min-width: 1024px){
-.container{
-	margin: 30px 50px;
-}
-header{
-	line-height: 2rem;
-}
-header h1{
-	font-size: 2.5rem;
-	padding-bottom: 0.5rem;
+	@media (min-width: 1024px){
+	.container{
+		margin: 30px 50px;
 	}
-header h2{
-	font-size: 1.2rem;
+	header{
+		line-height: 2rem;
 	}
-header p{
-	font-size: 1.2rem;
+	header h1{
+		font-size: 2.5rem;
+		padding-bottom: 0.5rem;
+	}
+	header h2{
+		font-size: 1.2rem;
+	}
+	header p{
+		font-size: 1.2rem;
 	}
 }
 /*head section media end*/
@@ -97,41 +97,41 @@ header p{
 /*media start*/
 
 @media (min-width: 390px){
-.section{
-	line-height: 1rem;
-}
-.section h2{
-	font-size: 1.1rem;
-	padding-bottom: 5px;
-}
-.section p{
-	font-size: 0.8rem;
-}	
+	.section{
+		line-height: 1rem;
+	}
+	.section h2{
+		font-size: 1.1rem;
+		padding-bottom: 5px;
+	}
+	.section p{
+		font-size: 0.8rem;
+	}	
 }
 @media (min-width: 768px){
-.section{
-	line-height: 1.3rem;
-}
-.section h2{
-	font-size: 1.5rem;
-	padding-bottom: 1rem;
-}
-.section p{
-	font-size: 1rem;
-	text-align: justify;
-}	
+	.section{
+		line-height: 1.3rem;
+	}
+	.section h2{
+		font-size: 1.5rem;
+		padding-bottom: 1rem;
+	}
+	.section p{
+		font-size: 1rem;
+		text-align: justify;
+	}	
 }
 @media (min-width: 1024px){
-.section{
-	line-height: 1.5rem;
-}
-.section h2{
-	font-size: 1.7rem;
-	padding-bottom: 1rem;
-}
-.section p{
-	font-size: 1.2rem;
-}	
+	.section{
+		line-height: 1.5rem;
+	}
+	.section h2{
+		font-size: 1.7rem;
+		padding-bottom: 1rem;
+	}
+	.section p{
+		font-size: 1.2rem;
+	}	
 }
 /*media end*/
 /* section ends*/
@@ -140,7 +140,79 @@ header p{
 .academic h2{
 	font-size: 0.8rem;
 	font-weight: bold;
+	padding-bottom: 0.4rem;
 }
-.academic
-
+.sub-section{
+	padding-bottom: 0.4rem;
+}
+.sub-section h3{
+	font-size: 0.7rem;
+	font-weight: bold;
+	padding-bottom: 0.1rem;
+}
+.sub-section p{
+	font-size: 0.6rem;
+	padding-bottom: 0.1rem;
+}
+/*media start*/
+@media (min-width: 390px){
+	.sub-section{
+		padding-bottom: 0.5rem;
+	}
+	.academic h2{
+	font-size: 1.1rem;
+	font-weight: bold;
+	padding-bottom: 0.5rem;
+	}
+	.sub-section h3{
+		font-size: 0.8rem;
+		font-weight: bold;
+		padding-bottom: 0.2rem;
+	}
+	.sub-section p{
+		font-size: 0.8rem;
+		padding-bottom: 0.2rem;
+	}
+}
+@media (min-width: 768px){
+	.sub-section{
+		padding-bottom: 0.5rem;
+	}
+	.academic h2{
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding-bottom: 1rem;
+	}
+	.sub-section h3{
+		font-size: 1rem;
+		font-weight: bold;
+		padding-bottom: 0.4rem;
+	}
+	.sub-section p{
+		font-size: 1rem;
+		padding-bottom: 0.4rem;
+	}
+}
+@media (min-width: 1024px){
+	.sub-section{
+		padding-bottom: 0.8rem;
+	}
+	.academic h2{
+	font-size: 1.7rem;
+	font-weight: bold;
+	padding-bottom: 1rem;
+	}
+	.sub-section h3{
+		font-size: 1.2rem;
+		font-weight: bold;
+		padding-bottom: 0.5rem;
+	}
+	.sub-section p{
+		font-size: 1.2rem;
+		padding-bottom: 0.4rem;
+	}
+}
+/*media end */
 /*academic section end*/
+
+
