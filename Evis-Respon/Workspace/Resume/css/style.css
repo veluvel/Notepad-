@@ -219,7 +219,7 @@ header p{
 .skill h2{
 	font-size: 0.8rem;
 	font-weight: bold;
-	padding-bottom: 5px;
+	padding-bottom: 0.3rem;
 }
 .skill table td{
 	border: 1px solid grey;
@@ -250,23 +250,124 @@ header p{
 @media (min-width: 390px){
 	.skill h2{
 		font-size: 1.1rem;
-		font-weight: bold;
 		padding-bottom: 0.5rem;
-	}
-	.skill table td{
-		border: 1px solid grey;
-		padding: 0.5rem;
-	}
+		}
 	.skill table h3{
 		font-size: 0.8rem;
-		font-weight: bold;
-		padding-bottom: 0.1rem;
-	}
+		padding-bottom: 0.5rem;
+		}
 	.skill table p{
-		font-size: 0.7rem;
-	}
-	.skill table .name{
+		font-size: 0.8rem;
+		}	
+	.skill li{
+		font-size: 0.8rem; 
+		}
+}
+@media (min-width: 768px){
+	.skill h2{
+		font-size: 1.5rem;
+		padding-bottom: 1rem;
+		}
+	.skill table h3{
+		font-size: 1rem;
+		padding-bottom: 0.4rem;
+		}
+	.skill table p{
+		font-size: 1rem;
+		}	
+	.skill li{
+		font-size: 1rem; 
+		}
+}
+@media (min-width: 1024px){
+	.skill h2{
+		font-size: 1.7rem;
+		padding-bottom: 1rem;
+		}
+	.skill table h3{
+		font-size: 1.2rem;
+		padding-bottom: 0.5rem;
+		}
+	.skill table p{
+		font-size: 1.2rem;
+		}	
+	.skill li{
+		font-size: 1.2rem; 
 		}
 }
 /*media end*/
 /*skill section end*/
+
+/*Technical section start*/
+.technical h2{
+	font-size: 0.8rem;
+	font-weight: bold;
+	padding-bottom: 0.5rem;
+}
+.d-flex{
+	display: flex;
+	margin-bottom: 0.5rem;
+}
+.tech1{
+	width: 50%;
+}
+.tech2{
+	width: 50%;
+}
+.tech h3{
+	font-size: 0.7rem;
+	color: #169cc5;
+	font-weight: bold;
+	padding-bottom: 0.2rem;
+}
+.tech p{
+	font-size: 0.8rem;
+}
+/*media start*/
+@media (min-width: 390px){
+	.technical h2{
+		font-size: 1.1rem;
+		padding-bottom: 0.5rem;
+	}
+	.tech h3{
+		font-size: 0.8rem;
+		padding-bottom: 0.2rem;
+	}
+	.tech p{
+		font-size: 0.8rem;
+	}
+}
+@media (min-width: 768px){
+	.technical h2{
+		font-size: 1.5rem;
+		padding-bottom: 1rem;
+	} 
+	.d-flex{
+		padding-bottom: 1rem;
+	}
+	.tech h3{
+		font-size: 1rem;
+		padding-bottom: 0.5rem;
+	}
+	.tech p{
+		font-size: 1rem;
+	}
+}
+@media (min-width: 1024px){
+	.technical h2{
+		font-size: 1.7rem;
+		padding-bottom: 1rem;
+	} 
+	.d-flex{
+		padding-bottom: 1rem;
+	}
+	.tech h3{
+		font-size: 1.2rem;
+		padding-bottom: 0.5rem;
+	}
+	.tech p{
+		font-size: 1.2rem;
+	}
+}
+/*media end*/
+/*Technical section end*/
