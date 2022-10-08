@@ -222,7 +222,7 @@ header p{
 	padding-bottom: 0.3rem;
 }
 .skill table td{
-	border: 1px solid grey;
+	border: 1px solid #b9b1b1ab;
 	padding: 0.5rem;
 }
 .skill table h3{
@@ -233,17 +233,14 @@ header p{
 .skill table p{
 	font-size: 0.6rem;
 }
-.skill table .name{
+.skill table{
 	width: 100%;
-}
-.skill table .duration{
-	width: 10;
 }
 .skill ul{
 	list-style: disc;
 }
 .skill li{
-	margin-left: 2rem;
+	margin-left: 3rem;
 	font-size: 0.6rem; 
 }
 /*media start*/
@@ -315,13 +312,13 @@ header p{
 	width: 50%;
 }
 .tech h3{
-	font-size: 0.7rem;
+	font-size: 0.6rem;
 	color: #169cc5;
 	font-weight: bold;
 	padding-bottom: 0.2rem;
 }
 .tech p{
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 }
 /*media start*/
 @media (min-width: 390px){
@@ -371,3 +368,149 @@ header p{
 }
 /*media end*/
 /*Technical section end*/
+
+/*projects start*/
+.projects table{
+	width: 100%;
+}
+table{
+	margin-bottom: 2rem;
+}
+.projects h2{
+	font-size: 0.8rem;
+	font-weight: bold;
+	padding-bottom: 0.5rem;
+}
+.table tr{
+	border: 1px solid #b9b1b1ab;
+}
+.table td{
+	padding: 0.4rem;
+}
+.table h3{
+	font-size: 0.7rem;
+	font-weight: bold;
+	padding-bottom: 0.2rem;
+}
+.table a{
+	font-size: 0.7rem;
+	color: #169cc5;
+}
+.table p{
+	font-size: 0.6rem;
+}
+.li-disc{
+	list-style: disc;
+	margin-left: 3rem;
+	font-size: 0.6rem;
+}
+/*media start*/
+@media (min-width: 360px){
+	.projects h2{
+		font-size: 1.1rem;
+		padding-bottom: 0.5rem;
+	}
+	.table td{
+		padding: 0.3rem;
+	}
+	.table h3{
+		font-size: 0.8rem;
+		padding-bottom: 0.1rem;
+	}
+	.table a, .table p, .li-disc{
+		font-size: 0.8rem;
+	}
+}
+@media (min-width: 768px){
+	.projects h2{
+		font-size: 1.5rem;
+		padding-bottom: 1rem;
+	}
+	.table td{
+		padding: 0.5rem;
+	}
+	.table h3{
+		font-size: 1rem;
+		padding-bottom: 0.4rem;
+	}
+	.table a, .table p, .li-disc{
+		font-size: 1rem;
+	}
+}
+@media (min-width: 1024px){
+	.projects h2{
+		font-size: 1.7rem;
+		padding-bottom: 1rem;
+	}
+	.table td{
+		padding: 0.5rem;
+	}
+	.table h3{
+		font-size: 1.2rem;
+		padding-bottom: 0.5rem;
+	}
+	.table a, .table p, .li-disc{
+		font-size: 1.2rem;
+	}
+}
+/*media end*/
+/*projects end*/
+
+/*declaration start*/
+.declaration h2{
+	font-size: 0.8rem;
+	font-weight: bold;
+	padding-bottom: 0.5rem;
+}
+.declaration p{
+	font-size: 0.6rem;
+	padding-bottom: 1rem;
+}
+.declaration h3{
+	font-style: italic;
+	font-size: 0.6rem;
+}
+/*media start*/
+@media (min-width: 360px){
+	.declaration h2{
+		font-size: 1.1rem;
+		padding-bottom: 0.5rem;
+	}
+	.declaration p{
+		font-size: 0.8rem;
+		padding-bottom: 1.5rem;
+	}
+	.declaration h3{
+		font-size: 0.7rem;
+	}
+}
+@media (min-width: 768px){
+	.declaration h2{
+		font-size: 1.5rem;
+		padding-bottom: 1rem;
+	}
+	.declaration p{
+		font-size: 1rem;
+		padding-bottom: 1.5rem;
+	}
+	.declaration h3{
+		font-size: 1rem;
+	}
+}
+@media (min-width: 1024px){
+	.declaration h2{
+		font-size: 1.7rem;
+		padding-bottom: 1rem;
+	}
+	.declaration p{
+		font-size: 1.2rem;
+		padding-bottom: 1.5rem;
+	}
+	.declaration h3{
+		font-size: 1.2rem;
+	}
+}
+
+
+/*media end*/
+/*declaration end*/
