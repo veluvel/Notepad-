@@ -256,7 +256,106 @@ header::after{
 	color: #b5b2b2;
 	padding: 20px 0;
 }
-/*menu section start*/
+
+/*----------------------*/
+.menu{
+	width:100%;
+	height:130vh;
+	background-color:#1a1814;
+}
+
+.menuhead{
+	padding:3.5rem 0;
+}
+.menuhead h4{
+	font-size:1rem;
+	color:#aaaaaa;
+}
+.menuhead h4::after{
+	content:"";
+	height: 1px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 4px 10px;
+	width:120px;
+}
+.menuhead h1{
+	font-size:2.5rem;
+	padding-top:0.7rem;
+	color:#cda45e;
+}
+
+.ulmenu{
+	display:flex;
+	justify-content:center;
+}
+.ulmenu li{
+	list-style-type:none;
+	padding:0.5rem 1rem;
+}
+.ulmenu a{
+	text-decoration:none;
+	color:#fff;
+	font-weight:700;
+}
+.ulmenu a:hover{
+	color:#cda45e;
+	transition:0.3s ease-in-out;
+}
+
+.itemsflex{
+    padding-top:3rem;
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+}
+.flexitem{
+	width:49%;
+}
+.flexitem2{
+	width:49%;
+}
+.item1{
+	display:flex;
+	padding-bottom:2.5rem;
+	
+}
+.itemicon img{
+	border-radius:50%;
+	border:5px solid rgb(255,255,255,0.2);
+}
+.itemiconcontent{
+	padding-left:1rem;
+}
+.itemiconcontent a::after{
+	content:"..........................................";
+	padding-left:1rem;
+	padding-right:1rem;
+	color:rgba(255,255,255,0.6);
+	font-size:0.7rem;
+	
+}
+.itemiconcontent a{
+	text-decoration:none;
+	color:#fff;
+	font-size:1.3rem;
+	font-weight:700;
+}
+.itemiconcontent a:hover{
+	color:#cda45e;
+	transition:0.3s ease-in-out;
+}
+.itemiconcontent span{
+	color:#cda45e;
+}
+.itemiconcontent p{
+	font-style:italic;
+	font-size:1rem;
+	color:rgba(255,255,255,0.5);
+}
+/*menu over*/
+
+/*menu section start
 .menu{
 	background: #1a1814;
 }
