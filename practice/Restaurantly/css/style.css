@@ -167,7 +167,7 @@ header::after{
 	margin: 0 1rem 0 0;
 	line-height: 1.6rem;
 }
-.about-content h1{
+.about-content h1{s
 	font-size: 26px;
 	font-family: timesnewroman;
 	padding: 0 0 8px;
@@ -320,15 +320,19 @@ header::after{
 	padding-bottom:2.5rem;
 	
 }
+.itemicon{
+	width: 10%;
+}
 .itemicon img{
 	border-radius:50%;
 	border:5px solid rgb(255,255,255,0.2);
 }
 .itemiconcontent{
+	width: 90%;
 	padding-left:1rem;
 }
 .itemiconcontent a::after{
-	content:"..........................................";
+	content:".....................................";
 	padding-left:1rem;
 	padding-right:1rem;
 	color:rgba(255,255,255,0.6);
@@ -555,20 +559,24 @@ header::after{
 }
 .input1{
 	padding:1rem 0.5rem;
-	
+	width: 33%;
 }
 .input1 .forminput{
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	height:2.3rem;
-	width:360px;
+	width: 100%;
 	font-size: 14px;
     padding:0.5rem;
+	background: transparent;
 }
 .textarea{
 	padding:1rem 0.5rem;
 }
 .textarea textarea{
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	background: transparent;
 	width:99%;
-     padding:0.5rem; 
+    padding:0.5rem; 
 	height:15vh;
 }
 .buttonform{
@@ -927,7 +935,11 @@ footer{
 	text-decoration:none;
 	color:#cda45e;
 }
+
+/*---------------------*/
+
 /**Footer over**/
+
 
 
 /*menu section start
