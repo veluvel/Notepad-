@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contanier{
+	
+}
+.d-flex{
+	display: flex;
+}
+.jcsb{
+	justify-content: space-between;
+}
+.color-primary{
+	color: #0d6efd;
+}
+.menu-contact{
+	font: 15px "open sans", sans-serif;
+	padding: 10px;
+	text-align: center;
+}
+.menu-contact a{
+	color: #444;
+	text-decoration: none;
+}
