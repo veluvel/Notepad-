@@ -1,3 +1,21 @@
-.col h2{
-	color:red;
+.container{
+	margin-top: 3rem;
+	width: 80%;
+}
+.head{
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.head h6{
+	font-size: 12px;
+	font-weight: bold;
+	color: blue;
+}
+.card-img-top{
+	width: 100%;	
+}
+.card{
+	border: none;
+    text-align: center;
+	font-size: 12px;
 }
