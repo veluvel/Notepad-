@@ -6,6 +6,7 @@
 body{
 	font-family: "open sans", sans-serif;
 }
+/*------------------------------------------------------*/
 .container{
 	margin: 0% 3%;
 	width: auto;
@@ -49,13 +50,138 @@ body{
 .mb-1{
 	margin-bottom: 1rem;
 }
+.mb-2{
+	margin-bottom: 2rem;
+}
 .mt-1{
 	margin-top: 1rem;
 }
 b{
 	font-weight: bold;
 }
-/*--------------------------------------------------------------*/
+/*-----------------------------------------------------*/
+
+/*---------------------Contact Section Start----------------------*/
+#contact{
+	text-align: center;
+	margin-bottom: 4rem;
+}
+.contact-head{
+	padding: 3rem 0rem;
+	font-size: 2rem;
+	font-weight: 600;
+}
+.contact-content h4{ 
+	font-size: 1.2rem;
+	padding: 2rem 0 0.5rem 0;
+	font-weight: 600;
+}
+.contact-content p{
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+}
+.c-bg{
+	background: white;
+	padding: 2rem 0.5rem;
+	box-shadow: 0 0 10px #d3d3d3;
+}
+.icon-bg{
+    font-size: 32px;
+    color: #428bca;
+    border-radius: 50%;
+    padding: 8px 12px;
+    border: 2px dotted #9eccf4;
+}
+.contact-form{
+	line-height: 5rem;
+	box-shadow: 0 0 10px #d3d3d3;
+}
+.contact-name .name{
+	height: 2.5rem;
+	padding: 10px;
+	width: 85%;
+	border: 1px solid #ccc;
+	margin: auto;
+	display: block;
+}
+.contact-name .mail{
+	height: 2.5rem;
+	padding: 10px;
+	width: 85%;
+	border: 1px solid #ccc;
+}
+.contact-form .subject{
+	height: 2.5rem;
+	padding: 10px;
+	width: 85%;
+	border: 1px solid #ccc;
+	margin: auto;
+}
+.contact-form input:focus{
+	outline: none;
+	color: #2899bb;;
+}
+.contact-form textarea:focus{
+	outline: none;
+	color: #2899bb;;
+}
+.contact-form textarea{
+	height: 7rem;
+	padding: 10px;
+	width: 85%;
+	font-size: 1rem;
+	border: 1px solid #ccc;
+	margin: auto;
+	}
+.contact-form .btn{
+	border: none;
+    background: #2899bb;
+	color: white;
+    height: 40px;
+	font-size: 1rem;
+    width: 25%;
+}
+/*----Media start----*/
+
+@media (min-width: 768px){
+	.container{
+		margin: 0% 6%;
+	}
+}
+@media(min-width: 1024px){
+	.container{
+		margin: 0% 7%;
+	}
+	.contact-content{
+		display: flex;
+		gap: 1rem;
+	}
+	.c-address{
+		width: 50%;
+	}
+	.c-email{
+		width: 50%;
+	}
+	.c-call{
+		width: 50%;
+	}
+	.address-bottom{
+		display: flex;
+		gap: 1rem;
+		width: 50%;
+	}
+	.contact-name{
+		display: flex;
+		width: 85%;
+		gap: 2%;
+		margin: auto;
+		
+	}
+}
+/*--------Media End-------*/
+/*---------------------Contact Section Ended----------------------*/
+
+/*----------------------Footer section start----------------------*/
 #footer{
 	background: #587187;
 	padding: 3.5rem 0rem 2rem 0;
@@ -116,25 +242,25 @@ b{
     background: #2899bb;
 	color: white;
     height: 40px;
+	font-size: 1rem;
     width: 30%;
 }
 .legal{
 	padding: 2rem 2rem;
 	text-align: center;
 	line-height: 30px;
-	border-top: 1px solid #ccc;
+	border-top: 1.5px solid #8394a352;
 	background: #587187;
 	color: white;
+	font-size: 0.9rem;
 }
 .legal-content a{
-	color: blue;
-	font-weight: bold;
-	font-size: 1rem;
+	color: #62b1c9;
 }
-/*---------------------------media start--------------------------*/
+/*----------Media Start----------*/
 @media(min-width: 768px){
 	.container{
-		margin: 0% 5%;
+		margin: 0% 6%;
 	}
 	.footer-head{
 		display: flex;
@@ -170,7 +296,8 @@ b{
 		margin-top: -16px;
 	}
 }
-
+/*------Media End------*/
+/*-----------Footer Section Ended------------*/
 
 
 
