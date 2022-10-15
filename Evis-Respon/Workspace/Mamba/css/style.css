@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 }
 body{
+	color: #444;
 	font-family: "open sans", sans-serif;
 }
 /*------------------------------------------------------*/
@@ -44,6 +45,9 @@ body{
 .p-1{
 	padding: 1rem;
 }
+.lh-2{
+	line-height: 1.5rem;
+}
 .lh-1{
 	line-height: 2rem;
 }
@@ -59,28 +63,73 @@ body{
 b{
 	font-weight: bold;
 }
-/*-----------------------------------------------------*/
+h3{
+	color: #5c768d;
+}
+/*------------------------------------------------------------*/
+#team h3{
+	text-align: center;
+	padding: 3rem 0 2rem 0;
+	font-size: 2rem;
+	color: #5c768d;
+	font-weight: 600;
+}
+#team p{
+	text-align: center;
+	font-size: 1rem;
+}
 /*---------------------FAQ Section Start----------------------*/
-
+#faq{
+	padding: 2rem 0;
+}
 #faq h3{
 	text-align: center;
 	padding: 3rem 0 2rem 0;
 	font-size: 2rem;
+	color: #5c768d;
 	font-weight: 600;
 }
 #faq h4{ 
-	font-size: 1.2rem;
+	color: #2e5170;
+	font-size: 1.3rem;
 	padding: 2rem 0 0.5rem 0;
 	font-weight: 600;
 }
 #faq p{
 	font-size: 1rem;
 }
+/*--------------Media Start------------*/
+@media (min-width: 768px){
+	.container{
+		margin: 0% 6%;
+	}
+}
+@media(min-width: 1024px){
+	.container{
+		margin: 0% 7%;
+	}
+	.faq-1{
+		display: flex;
+		gap: 2%;
+	}
+	.flex-1{
+		width: 50%;
+	}
+	.flex-2{
+		width: 50%;
+	}
+}
+/*--------------Media End--------------*/
+/*
+.faq-1{
+	display: flex;
+}
+ 
 #faq .faqdiv{
 	width: ;
 	display: flex;
 	gap: 2%;
-}
+} */
 /*---------------------FAQ Section Start----------------------*/
 
 
