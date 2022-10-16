@@ -67,9 +67,55 @@ h3{
 	color: #5c768d;
 }
 /*------------------------------------------------------------*/
+/*--------------------About Us section Start-----------------*/
+.about-content{
+	gap: 5	%;
+}
+.about-img{
+	width: 100%;
+}
+.about-head h3{
+	text-align: center;
+	padding: 3rem 0 1rem 0;
+	font-size: 2rem;
+	color: #5c768d;
+	font-weight: 600;
+}
+.about-head p{
+	font-style: italic;
+	line-height: 1.5rem;
+}
+.about-data{
+	width: 100%;
+	padding: 3rem 0;
+}
+.about-content{
+	gap: 5%;
+}
+.bi-bg{
+	background: #f1f7fb;
+	display: block;
+	text-align: center;
+	padding: 1.2rem;
+}
+.bi-bg i{
+	font-size: 2rem;
+	
+}
+.a-content1{
+	display: flex;
+	gap: 20px;
+}
+.a-c p{
+	line-height: 18px;
+}
+/*--------------------About Us section Ended-----------------*/
+
+
+/*-------------------Our Team Section Start-------------------*/
 #team h3{
 	text-align: center;
-	padding: 3rem 0 2rem 0;
+	padding: 3rem 0 1rem 0;
 	font-size: 2rem;
 	color: #5c768d;
 	font-weight: 600;
@@ -78,8 +124,23 @@ h3{
 	text-align: center;
 	font-size: 1rem;
 }
+.team-menu{
+	gap: 2%;
+}
+.team-img1 img{
+	transition : scale(1,1);
+}
+/*----------Media Start----------*/
+@media (min-width: 768px;){
+
+}
+/*----------Media Ended----------*/
+
+/*---------------------Our Section Ended----------------------*/
+
 /*---------------------FAQ Section Start----------------------*/
 #faq{
+	background: #f5f9fc;
 	padding: 2rem 0;
 }
 #faq h3{
@@ -266,6 +327,7 @@ h3{
 .footer-top h3{
 	font: 24px "raleway", sans-serif;
 	font-weight: 700;
+	color: white;
 	margin: 0 0 1.5rem 0;
 }
 .footer-info{
