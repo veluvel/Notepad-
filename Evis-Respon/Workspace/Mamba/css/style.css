@@ -66,7 +66,130 @@ b{
 h3{
 	color: #5c768d;
 }
-/*------------------------------------------------------------*/
+/*-----------------------------------------------------------*/
+
+
+/*-----------------------Card Section Start------------------*/
+#card{
+	background: #f5f9fc;
+	text-align: center;
+	margin: 3rem 0;
+	padding: 2rem 0 1rem 0;
+}
+#card h4{
+	font-weight: bold;
+	font-size: 40px;
+	color: #5c768d;
+}
+#card p{
+	font-size: 15px;
+}
+.card-1{
+	background: white;
+	box-shadow: 0 0 20px #ddd2d2ba;
+	padding: 2rem;
+	line-height: 40px;
+}
+/*---------Media Start---------*/
+@media(min-width: 768px){
+	.container{
+		margin: 0% 6%;
+	}
+	.card-content{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.card-1{
+		width: 49%;
+	}
+}
+@media(min-width: 1024px){
+	.container{
+		margin: 0% 7%;
+	}
+	.card-1{
+		width: 24%;
+	}
+	
+}
+/*---------Media Ended---------*/
+/*-----------------------Card Section Ended------------------*/
+
+
+/*--------------------Content Section Start-----------------*/
+#content{
+	padding: 2rem 0 3rem 0;
+}
+.content-head p{
+	color: #aaaaaa;
+    font-size: 15px;
+	line-height: 18px;
+}
+.content-head h4{
+	margin: 1.5rem 0;
+	font-size: 28px;
+}
+.content-head h5{
+	font-size: 24px;
+	color: #9eccf4;
+}
+.c-padding{
+	padding: 2rem;
+}
+.content-1,.content-2,.content-3,.content-4,.content-5 {
+	border-bottom: 1px solid #d8dfdf;
+}
+/*----------Media Start----------*/
+@media(min-width: 768px){
+	.container{
+		margin: 0% 6%;
+	}
+	.content-head{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.c-width{
+		width: 50%;
+	}
+	.content-1,.content-3,.content-5 {
+		border-right: 1px solid #d8dfdf;
+	}
+	.content-5{
+		border-bottom: none;
+	}
+	.c-padding{
+		padding: 2rem 3.5rem;
+	}
+}
+@media(min-width: 1024px){
+	.container{
+		margin: 0% 7%;
+	}
+	.content-head{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.c-width{
+		width: 33%;
+	}
+	.content-1,.content-2,.content-4,.content-5 {
+		border-right: 1px solid #d8dfdf;
+	}
+	.content-4{
+		border-bottom: none;
+	}
+	.content-3{
+		border-right: none;
+	}
+	.c-padding{
+		padding: 2rem 3rem;
+	}
+}
+/*----------Media Ended----------*/
+/*--------------------Content Section Ended-----------------*/
+
+
 /*--------------------About Us section Start-----------------*/
 .about-content{
 	gap: 5	%;
@@ -90,17 +213,22 @@ h3{
 	padding: 3rem 0;
 }
 .about-content{
-	gap: 5%;
+	gap: ;
 }
 .bi-bg{
+	border-radius: 10%;
 	background: #f1f7fb;
 	display: block;
 	text-align: center;
 	padding: 1.2rem;
 }
+
+.bi-bg:hover{
+	color: ;
+}
 .bi-bg i{
 	font-size: 2rem;
-	
+	border-radius: 25%;
 }
 .a-content1{
 	display: flex;
@@ -109,6 +237,28 @@ h3{
 .a-c p{
 	line-height: 18px;
 }
+
+/*----------Media Start----------*/
+@media (min-width: 768px){
+	.container{
+		margin: 0% 6%;
+	}
+}
+@media(min-width: 1024px){
+	.container{
+		margin: 0% 7%;
+	}
+	.about-content{
+		display: flex;
+		gap: 5%;
+		justify-content: center;
+	}
+	.about-data{
+		padding: 0 0;
+	}
+}
+/*----------Media Ended----------*/
+
 /*--------------------About Us section Ended-----------------*/
 
 
@@ -131,8 +281,15 @@ h3{
 	transition : scale(1,1);
 }
 /*----------Media Start----------*/
-@media (min-width: 768px;){
-
+@media (min-width: 768px){
+	.container{
+		margin: 0% 6%;
+	}
+}
+@media(min-width: 1024px){
+	.container{
+		margin: 0% 7%;
+	}
 }
 /*----------Media Ended----------*/
 
