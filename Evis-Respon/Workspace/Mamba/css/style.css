@@ -69,6 +69,25 @@ h3{
 /*-----------------------------------------------------------*/
 
 
+/*--------------------Portfolio Section Start----------------*/
+#portfolio{
+	text-align: center;
+}
+.p-menu li{
+	font-size: 0.8rem;
+	margin: 2rem 0.1rem;
+	background: red;
+	color: white;
+    padding: 0.8rem 1rem;
+	display: flex;
+	border-radius: 7px;
+	justify-content: center;
+	align-items: center;
+	display: inline-block;
+}
+/*--------------------Portfolio Section Ended----------------*/
+
+
 /*-----------------------Card Section Start------------------*/
 #card{
 	background: #f5f9fc;
@@ -111,10 +130,85 @@ h3{
 	.card-1{
 		width: 24%;
 	}
-	
 }
 /*---------Media Ended---------*/
 /*-----------------------Card Section Ended------------------*/
+
+
+/*-----------------------Service Section Ended------------------*/
+#service{
+	text-align: center;	
+}
+#service h3{
+	text-align: center;
+	padding: 3rem 0 3rem 0;
+	font-size: 2rem;
+	color: #5c768d;
+	font-weight: 600;
+}
+.service-box1{
+	margin: 2rem;
+}
+.service-box1 h4{
+	font-size: 18px;
+	font-weight: 600;
+	padding: 2rem;
+}
+.service-box1 h4:after{
+	content: " ";
+	margin: auto;
+	height: 2px;
+	width: 50px;
+	background: #428bca;
+	top: 1rem;
+	display: flex;
+	position: relative;
+}
+.icon{
+	border-radius: 50%;
+	box-shadow: 0 0 20px #ccc;
+	height: 80px;
+	width: 80px;
+	display: flex;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+}
+.service-box1:hover .icon{
+	box-shadow: 0 0 20px #428bca;
+	transition: all 0.5s ease;
+}
+.service-box1 p{
+	line-height: 1.5rem;
+}
+.i-bg{
+	color: #428bca;
+	font-size: 30px;	
+}
+/*----------Media Start----------*/
+@media(min-width: 768px){
+	.container{
+		margin: 0% 6%;
+	}
+	.service{
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	.service-box1{
+		width: 40%;
+	}
+}
+@media(min-width: 1024px){
+	.container{
+		margin: 0% 7%;
+	}
+	.service-box1{
+		width: 25%;
+	}
+}
+/*----------Media Ended----------*/
+/*-----------------------Service Section Ended------------------*/
 
 
 /*--------------------Content Section Start-----------------*/
