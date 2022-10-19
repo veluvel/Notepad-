@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Operators</title>
+</head>
+<body>
+    <h1>JS operators</h1>
+
+    <p>variables = operators = Expression(algorithm)</p>
+    <ul>
+        <li>Arithmetic operators</li>
+        <li>Comparison Operators</li>
+        <li>Comparison Operators</li>
+        <li>Logical operators</li>
+        <li>Bitwise Operators</li>
+    </ul>
+
+    <script>
+        //1.arithmetic operators 
+        // +, -, *, /, %, **, ++, --
+        // ++, --
+
+        let number1=5;
+        let number2=10;
+        let number3=5;
+        let number4=2;
+
+        console.log(number1 + number2); // addition
+        console.log(number1 - number2); // subtraction 
+        console.log(number1 * number2); // multiplication
+        console.log(number1 / number2); // division
+        console.log(number1 % number2); // modulus(remainder)
+        console.log(number3 ** number4); // exponentiation
+    
+        //increment operators
+        console.log(++number1); // pre increment
+        console.log(number1);
+
+        console.log(number2++); // post increment
+        console.log(number2)
+
+        //decrement operators
+        console.log(--number3); // pre decrement
+        console.log(number3);
+
+        console.log(number4--); // post decrement
+        console.log(number4)
+
+
+
+        //2.Assignment operators
+        // =, +=, -=, *=, /=, %=, **=,
+
+        let x = 5;
+            y = x;
+        console.log(x); // 5
+
+        let a=2;
+            a += 2;
+        console.log(a); // 4
+
+        let b=5;
+            b -= 2;
+        console.log(b); // 3
+
+        let c=8;
+            c *= 2;
+        console.log(c); // 16
+
+        let d=10;
+            d /= 2;
+        console.log(d); // 5
+
+        let e = 10;
+            e %= 5;
+        console.log(e); // 0
+
+        let f=2;
+            f **= 2;
+        console.log(f); // 4
+
+
+    
+
+//-------------------------------------------------- 
+        //3.Comparison Operators
+        // true or false
+
+        // Relational operators > , >= , < , <= 
+        
+        // > greater than 
+        let m = 5;
+        console.log( m > 2); // true
+        
+        // >= greater than or equal to
+        let n= 2;
+        console.log( n >= 5); // false 
+        
+        // < lessthan 
+        let o= 5;
+        console.log( 0 < 5); // true 
+         
+        // <= lessthan or equal to
+        let p= 10;
+        console.log( p <= 8); // false 
+        
+        
+        //Equality Operators 
+        let q = 2 ;
+        console.log( q === 2); // 2 === 2 True
+        console.log(q !== 2);  // 2 !== 2 false
+
+
+        // equality operators with string comparison
+        console.log( 'alen' > 'benchamin'); // dictionary mode la values pannum // false
+        console.log('2' < 5 ); // '2' nu kuduthathu 1 nu maaridum, 1 < 5  // true
+        console.log(true == 0); // false  
+            // 1 - true
+            // 0 - false
+
+    //-----------------------------------------------------
+
+    // 4. Logical Operators
+
+    // logical AND (&&)
+    // returns TRUE if both operands are TRUE
+    console.log(true && true); // true
+    console.log(true && false); // false
+
+    // Logical OR (||)
+    // returns TRUE if anyone operands are TRUE
+    console.log(true || false); // true
+
+    // NOT (!)
+    console.log(!(true || false)); // false
+    
+    //practice
+    // highIncome , CIBILScore -> Loan eligible, in eligible
+
+    let highincome = true;
+    let CIBILScore = true;
+
+    console.log(highincome && CIBILScore); // true
+
+
+
+
+    </script>
+</body>
+</html>
