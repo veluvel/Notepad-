@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js Basic</title>
+    <style>
+        h1{
+            color:rgb(70, 225, 65);
+        }
+        h2{
+            color:rgb(190, 74, 142);
+        }
+        li{
+            color:rgb(51, 159, 221);
+        }
+    </style>
+</head>
+<body>
+    <div class="js">
+        <h1>Java Script</h1>
+        <p>js have to link in the end of body tag</p>
+        <!--Ex: <script src="main.js"></script>-->
+        <p>console.log() is used to print the result in JS </p><br>
+        <h2>Type of variable decleration</h2>
+        <ul>
+            <li><b>var</b>-Variable : which is used in older version (ECMAS1).It is used to store the data</li>
+            <li><b>let</b>:which is asme as var but it is used in advanced version (ECMA6)</li>
+            <li><b>const</b>-Constant :It will be constant we cannot change and if wee do ,it shows an error</li>
+        </ul><br><br>
+        <h2>Rules</h2>
+        <ol>
+            <li>No keywords  Ex:if,else,var....</li>
+            <li>Case sensitive</li>
+            <li>Should not start with numbers or symbols<!--EX:let 1name="hi" this is wrong. use let name1="hi"--></li>
+            <li>Meaningful name</li>
+            <li>First-name or space should not use instead use fName this is Camel case</li>
+        </ol><br>
+        <h2>Types of Datatype</h2>
+        <ul>
+            <li><b>Primitive</b>-here number,string,boolean,undefined,null,bigint</li>
+            <li><b>Reference</b>-here array,object,funciton</li>
+        </ul><br>
+        <h2>Primitive datatype</h2>
+        <ol>
+            <li><b>number</b>-which is used to give number</li>
+            <li><b>String</b>-Should be given within double quote or single quote</li>
+            <li><b>boolean</b>-used only for true or false condition</li>
+            <li><b>undefined</b>-which shows no value declared</li>
+            <li><b>null</b>-which shows no value there but undefined shows no value but in next we can add value</li>
+        </ol>
+        <h2>typeof</h2>
+        <p>to find which datatype is used</p>
+    </div>
+
+    <!--Script Part-->
+    <script>
+        //number//
+        let fname=1;
+        let name1=2;
+        console.log(name1);
+
+        //string//
+        let a="hello"//string in double quote
+        let b='hi'//string in single quote
+        console.log (a);
+
+        //boolean//
+        let c=true;//boolean true or false condition//
+        let d=false;
+        console.log (c);
+
+        //undefined//
+        let e=3;
+        let f=6;
+        let g;//undefined shows value not given//
+        console.log (g);
+
+        //typeof//
+        let h=4;
+        let i="pravin"
+        let j=true;
+        let k;
+        console.log(typeof(h));//typeof which shows whats type of datatype//
+    </script>
+</body>
+</html>
