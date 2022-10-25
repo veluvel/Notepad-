@@ -1,7 +1,7 @@
-.primary-color{    
+.primary-color{
 	color: #eb5d1e !important;
 }
-.primary-bg{    
+.primary-bg{
 	background: #eb5d1e !important;
 }
 .secondary-color{
@@ -15,16 +15,19 @@
 	color: #eb5d1e !important;	
 }
 /*----------Banner Start----------*/
+
 #banner{
 	background: #fef8f5;
     border-bottom: 2px solid #fcebe3;
 }
-#banner img {
-  position: relative;
-  animation: mymove 2s infinite;
+#banner img{
+	position: relative;
+	animation: mymove 2s infinite;
 }
-@keyframes mymove {
-  from {bottom: 0px;}
-  to {bottom: 15px};
+@keyframes mymove{
+	from {bottom: 0px;}
+	to {bottom: 15px};
 }
 /*-------------------------------*/
+
+
