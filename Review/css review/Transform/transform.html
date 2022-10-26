@@ -12,19 +12,20 @@
 			text-align:center;
 	}	
     #div1{
-		  width: 100px;
+		
+		width: 100px;
 		  height: 100px;
-		  background:red;
+		  background: bisque;
 		  transition: all 2s ease-in-out;
 	}
 	#div1:hover{
-		transform: rotate(360deg);
+		transform: rotate(60deg);
 	}
 	
 	 #div2{
 		  width: 100px;
 		  height: 100px;
-		  background:green;
+		  background:bisque;
 		  transition: all 2s;
 		  
 	 }
@@ -35,7 +36,7 @@
 	#div3{
 		  width: 100px;
 		  height: 100px;
-		  background:yellow;
+		  background:bisque;
 		  transition: all 2s ease-in-out;
 	 }
 	 #div3:hover{
@@ -45,21 +46,68 @@
      #div4{
 		  width: 100px;
 		  height: 100px;
-		  background:aqua;
+		  background:bisque;
 		  transition: all 2s;
 	}
 	#div4:hover{
 		transform:scale(1,2);
 	 }
 	#div5{
+		transform: translate(100px, 0px);
 		  width: 100px;
 		  height: 100px;
-		  background:blue;
+		  background:bisque;
 		  transition: all 2s ;
 	 }
 	#div5:hover{
 		transform:skew(20deg,20deg);
 	 }
+	 .transslate{
+		background: red;
+		width: 200px;
+		height: 200px;
+		 transform: translate(50px, 10px);
+	}
+	.rotate{
+		margin: 100px;
+		width: 300px;
+		height: 100px;
+		background-color: yellow;
+		border: 1px solid black;
+		transform: rotate(-20deg);
+		}
+	.scale{
+		margin: 0 100px;
+		width: 200px;
+		height: 100px;
+		background-color: yellow;
+		border: 1px solid black;
+		transform: scale(2,1);
+	}
+	.scalex{
+		margin: 0 100px;
+		width: 200px;
+		height: 100px;
+		background-color: yellow;
+		border: 1px solid black;
+		transform: scalex(0.5);
+	}
+	.scaley{
+		margin: 0 100px;
+		width: 200px;
+		height: 100px;
+		background-color: yellow;
+		border: 1px solid black;
+		transform: scaley(.5);
+	}
+	.skew{
+		margin: 100px;
+		width: 300px;
+		height: 100px;
+		background-color: yellow;
+		border: 1px solid black;
+		transform: skew(20deg,20deg);
+	}
 	</style>
 </head>
 <body>
@@ -68,6 +116,26 @@
 	<div id="div2">translate(x,y)</div><br>
 	<div id="div3">matrix()</div><br>
 	<div id="div4">scale()</div><br>
-	<div id="div5">skewy()</div><br>
+	<div id="div5">skew()</div><br>
+	
+	<h2>The translate() Method</h2>
+	<div class="transslate">This div element is moved 50 pixels to the right, and 100 pixels down from its current position.</div>
+	
+	
+	<h2>The rotate() Method</h2>
+	<div class="rotate">This div element is rotated clockwise 5 degrees.</div>
+	
+	
+	<h2>The scale() Method</h2>
+	<div class="scale">This div element is decreased to be half of its original width and height.</div>
+	<div class="scalex">This div element is two times of its original width.</div>
+	<div class="scaley">This div element is two times of its original height.</div>
+	
+	<h2>The skew() Method</h2>
+	<div class="skew">This div element is skewed 20 degrees along the X-axis, and 10 degrees along the Y-axis.</div>
+	
+	
+	
+	
 </body>
 </html>
