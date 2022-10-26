@@ -11,9 +11,14 @@
 	font-size: 3rem !important;
 	font-weight: 700 ;
 }
+.head-color{
+	color: #c2b7b1 !important;
+}
+
 #header a:hover{
 	color: #eb5d1e !important;	
 }
+
 /*----------Banner Start----------*/
 
 #banner{
@@ -29,5 +34,13 @@
 	to {bottom: 15px};
 }
 /*-------------------------------*/
+#services{
+	background: #fef8f5;
+}
+/*-------------Portfolio start-------------*/
 
+#portfolio .a-tag a{
+	color: black !important;
+}
 
+/*-------------Portfolio end-------------*/
