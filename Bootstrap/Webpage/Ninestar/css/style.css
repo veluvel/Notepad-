@@ -1,10 +1,10 @@
-.primary-color{
+.pri-color{
 	color: #eb5d1e !important;
 }
-.primary-bg{
+.pri-bg{
 	background: #eb5d1e !important;
 }
-.secondary-color{
+.sec-color{
     color: #7a6960 !important;
 }
 .fs-10{
@@ -14,7 +14,9 @@
 .head-color{
 	color: #c2b7b1 !important;
 }
-
+#c2b7bl{
+	color: #c2b7b1 !important;
+}
 #header a:hover{
 	color: #eb5d1e !important;	
 }
@@ -33,14 +35,67 @@
 	from {bottom: 0px;}
 	to {bottom: 15px};
 }
-/*-------------------------------*/
+/*------------services section Start------------*/
+
 #services{
 	background: #fef8f5;
 }
-/*-------------Portfolio start-------------*/
+#services .trans-y{
+}
+#services .trans-y:hover{
+	border-bottom: 3px solid #eb5d1e;
+	transform: translatey(-5px);
+	transition: 0.2s ease;
+	margin-top: -15px;
+}
+/*-------------Services section End-------------*/
 
-#portfolio .a-tag a{
-	color: black !important;
+/*-------------Portfolio section start-------------*/
+
+.a-tag li{
+	cursor: pointer !important;
+}
+.a-tag li:hover{
+	color: #eb5d1e !important;
+	transition: 0.5s ease;
+}
+
+#portfolio .p-img{
+	position: relative;
+}
+#portfolio .p-img::before{
+	content:" ";
+	position: absolute;
+	width: 0%;
+	background: #8d808080;
+	top: 8px;
+	right: 11px;
+	transition: all 0.4s;
+}
+#portfolio .p-img:hover::before{
+	width: 94%;
+	bottom: 8px;
+}
+.p-img .p-img-content{
+	
+}
+.p-img .p-img-content{
+	position: absolute;
+	color: white;
+	top: 9px;
+	left: 11px;
+	right: 11px;
+	bottom: 9px;
+	opacity: 0;
+}
+.p-img .p-img-content:hover{
+	opacity: 1;
+	transition: all 0.4s;
+}
+.p-img-icon i{
+	background: white;
+	border-radius: 50%;
+	padding: 2px 5px;
 }
 
 /*-------------Portfolio end-------------*/
