@@ -20,7 +20,11 @@
 #header a:hover{
 	color: #eb5d1e !important;	
 }
-
+#header{
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
 /*----------Banner Start----------*/
 
 #banner{
@@ -47,6 +51,21 @@
 	transform: translatey(-5px);
 	transition: 0.2s ease;
 	margin-top: -15px;
+}
+@media (min-width:782px){
+	.service-bottom{
+		padding-bottom: 1.5rem;
+	}
+}
+@media (min-width:425px){
+	.service-bottom{
+		padding-bottom: 1rem;
+	}
+}
+@media (min-width:320px){
+	.service-bottom{
+		padding-bottom: 2rem;
+	}
 }
 /*-------------Services section End-------------*/
 
@@ -75,9 +94,6 @@
 #portfolio .p-img:hover::before{
 	width: 94%;
 	bottom: 8px;
-}
-.p-img .p-img-content{
-	
 }
 .p-img .p-img-content{
 	position: absolute;
@@ -113,3 +129,46 @@
 	background: #fef8f5;
 }
 /*-------------Client section end-------------*/
+
+
+/*-------------Client section end-------------*/
+#contacts i{
+	background: #fdf1ec;
+	padding: 6px 10px;
+	color: #eb5d1e;
+	border-radius: 50%;
+}
+#contacts .b-ho:hover i{
+	color: white;
+	background: #eb5d1e;
+}
+.bor-bot-color{
+	border-bottom: 3px solid #eb5d1e;
+}
+.bor-top-color{
+	border-top: 3px solid #eb5d1e;
+}
+/*-------------Client section end-------------*/
+#join{
+	background: #fef8f5;
+}
+#foot ul li{
+	list-style: none;
+}
+#foot a{
+	text-decoration: none;
+}
+#footer-btm{
+	background: #fef8f5;
+}
+.after-line:after{
+	content: " ";
+	position: relative;
+	margin: auto;
+	display: flex;
+	background: #eb5d1e;
+	border: 2px;
+	height: 2px;
+	width: 4rem;
+	top: 10px;
+}
