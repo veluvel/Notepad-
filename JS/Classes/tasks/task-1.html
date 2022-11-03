@@ -10,61 +10,87 @@
     <script>
        
          /*Number Positive or Not*/
-         let n=parseInt(prompt("Enter a Number"));
-         if(n>0){
-            document.write("Positive number");
+         // let n=parseInt(prompt("Enter a Number"));
+         // if(n>0){
+         //    document.write("Positive number");
+         // }
+         // else{
+         //    document.write("Negative number");
+         // }
+
+         //program to check if number positive or negative
+         const number = parseInt(prompt("enter a number: ")); //input from the user
+         if (number > 0){                                     // check if number is positive
+            console.log("The number is positive");
+          }
+         else if (number == 0){
+            console.log("The number is zero");
          }
-         else{
-            document.write("Negative number");
+         if(number < 0){                                       //check if number is negative
+            console.log("The number is negative");
          }
 
-         /*Greater than 10*/
-         let n=parseInt(prompt("Enter a Number"));
-         if(n>10){
-            document.write("Greater");
-
+         //program to check number greater than 10
+         const num = parseInt(prompt("Enter the number"));  // input from the user
+         if(num >= 9){
+            console.log("The number is greater than 9"); // check if number greaterthan 9
          }
-         else{
-            document.write("Lesser");
+         else if(num < 9){
+            console.log("The Number is Lessthan 9")
          }
 
-         /*Even or Odd*/
-         let n=parseInt(prompt("Enter a Number"));
+         //number even or odd
+         const n=parseInt(prompt("Enter a Number"));         // input from the user
          if(n%2==0){
-            document.write("Even");
+            console.log("The Number is Even")
          }
-         else{
-            document.write("Odd");
-         } 
-         
-         
-         /*Divisible by 5*/
-         let n=parseInt(prompt("Enter a Number"));
-         if(n%5==0){
-            document.write("Divisible by 5");
-         }
-         else{
-            document.write("Not divisible by 5");
-         } 
-        
-        
-        /*Multiple of 7*/
-        let n=parseInt(prompt("Enter a Number"));
-        if(n%7==0){
-            document.write("Multiple of 7");
-        }
-        else{
-            document.write("Not multiple of 7");
-        }
+         //    /*Greater than 10*/
+      //    let n=parseInt(prompt("Enter a Number"));
+      //    if(n>10){
+      //       document.write("Greater");
 
-        /*Marriage eligibility*/
-        let n=parseInt(prompt("Enter a Number"));
-        if(n>=18){
-            document.write("Eligible");
-       }
-       else{
-        document.write("Not eligible");
-       }
+      //    }
+      //    else{
+      //       document.write("Lesser");
+      //    }
+
+      //    /*Even or Odd*/
+      //    let n=parseInt(prompt("Enter a Number"));
+      //    if(n%2==0){
+      //       document.write("Even");
+      //    }
+      //    else{
+      //       document.write("Odd");
+      //    } 
+         
+         
+      //    /*Divisible by 5*/
+      //    let n=parseInt(prompt("Enter a Number"));
+      //    if(n%5==0){
+      //       document.write("Divisible by 5");
+      //    }
+      //    else{
+      //       document.write("Not divisible by 5");
+      //    } 
+        
+        
+      //   /*Multiple of 7*/
+      //   let n=parseInt(prompt("Enter a Number"));
+      //   if(n%7==0){
+      //       document.write("Multiple of 7");
+      //   }
+      //   else{
+      //       document.write("Not multiple of 7");
+      //   }
+
+      //   /*Marriage eligibility*/
+      //   let n=parseInt(prompt("Enter a Number"));
+      //   if(n>=18){
+      //       document.write("Eligible");
+      //  }
+      //  else{
+      //   document.write("Not eligible");
+      //  }
     </script>
 </body>
 </html>
