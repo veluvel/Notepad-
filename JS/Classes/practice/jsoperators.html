@@ -129,7 +129,7 @@
     // returns TRUE if both operands are TRUE
     console.log(true && true); // true
     console.log(true && false); // false
-
+    
     // Logical OR (||)
     // returns TRUE if anyone operands are TRUE
     console.log(true || false); // true
@@ -141,9 +141,17 @@
     // highIncome , CIBILScore -> Loan eligible, in eligible
 
     let highincome = true;
-    let CIBILScore = true;
+    let CIBILScore = false; // true and false
+    
+    //use && || ! operators
+    let eligibleperson = highincome || CIBILScore;
 
-    console.log(highincome && CIBILScore); // true
+    let applicationstatus = !eligibleperson;
+
+    console.log('loan status:' + eligibleperson); // true //use logical AND operators
+    
+    console.log('applicationstatus:' + applicationstatus);
+    
 
 
 

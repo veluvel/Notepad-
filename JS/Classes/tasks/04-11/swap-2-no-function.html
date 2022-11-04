@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swap 2 No Using Function</title>
+</head>
+<body>
+    <h2>Swap Two number using Function</h2>
+    <script>
+        let a =parseInt(prompt("Enter The First Value"));
+        let b =parseInt(prompt("Enter The Second Value"));
+        function Swap(a,b){
+            c=a-b;
+            a=a-c;
+            b=b+c;
+            document.write(a,b);
+        }
+        Swap(a,b);
+    </script>
+</body>
+</html>
