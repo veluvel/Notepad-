@@ -46,20 +46,31 @@
 	.per{
 	font-size: 100%;
 	}
+	.out{
+	outline: 2px solid red;
+	border: 5px dotted green;
+	}
+	span{
+	background: red;
+	display: block;
+	margin: 30px;
+	padding: 30px;
+	}
 </style>
 
 
 </head>
 
 <body>
-	<h1>Relative units</h1>
+	<div class="out">
+	<h1>Relative<span> units</span></h1>
 	<p class="cm">This is CM values</p>
 	<p class="mm">This is MM values</p>
 	<p class="in">inches (1in = 96px = 2.54cm)</p>
 	<p class="px">pixels (1px = 1/96th of 1in)</p>
 	<p class="pt">points (1pt = 1/72 of 1in)</p>
 	<p class="pc">picas (1pc = 12 pt)</p>
-	
+	</div>
 	
 	<h1>Absolute units</h1>
 <p class="em"> <b>em</b>	Relative to the font-size of the element (2em means 2 times the size of the current font)</p>	
