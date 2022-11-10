@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods table</title>
+    <style>
+        thead{
+            background-color: rgb(138, 189, 131);
+            text-transform: uppercase;
+            color: rgb(255, 255, 255);
+            font-size: larger;
+        }
+        table,th,td{
+            border-collapse: collapse;
+            border: 1px dotted red;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <table>
+        <caption style="font-size: 20px; color: red;">Array Methods</caption>
+        <thead>
+            <tr>
+                <th>S.no</th>
+                <th>Methods</th>
+                <th>syndax</th>
+                <th>usage</th>
+                <th>example</th>
+                <th>output</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>concat</td>
+                <td>array.concat()</td>
+                <td>The concat() method <br> concatenates (joins) <br> two or more arrays.</td>
+                <td>
+<pre>
+const array1 = ["a","b",];
+const array2 = ["c", "d", "e"];
+const array3= ["f"];
+
+const children = array1.concat(array2, array3);
+</pre>                
+                </td>
+                <td>a,b,c,d,e,f</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>constructor</td>
+                <td>array.constructor</td>
+                <td>Returns the function that created the Array prototype</td>
+<td>
+<pre> 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];<br>
+let text = fruits.constructor;<br>
+document.write(text);
+</pre>     
+            </td>
+            <td>function Array() { [native code] }</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>filter()</td>
+                <td>array.filter()</td>
+                <td>creates a new array filled with elements that pass a test provided by a function.</td>
+<td>
+<pre>
+const ages = [32, 33, 16, 40];
+const result = ages.filter(checkAdult);
+function checkAdult(age) {
+return age >= 18;
+}</td>
+                <td>32,33,40</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>join()</td>
+                <td>array.join()</td>
+                <td>it replace comma with our symbols</td>
+<td>
+<pre>
+let name=["rupu","ganesh"];
+let rename=name.join("*");
+document.write(rename);
+</pre>                
+                </td>
+                <td>rupu*ganesh</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>lastIndexOf</td>
+                <td>array.lastIndexOf()</td>
+                <td>The lastIndexOf() method <br> returns the last index <br> (position) of a specified value.</td>
+<td>
+<pre>
+let fruits = [2,5,7,8,6,4,1,5,6,5,9];
+
+let index = fruits.lastIndexOf(5);
+</pre>
+</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>forEach()</td>
+                <td>array.forEach()</td>
+                <td>Where we can use instead of for loop</td>
+                <td>
+<pre>
+let name=["arun","priya","ganesh","nithya","tharun"];<br>
+name.forEach(function(nam,index,array){<br>
+document.write(nam);
+});
+</pre>
+                </td>
+                <td>arun,priya,ganesh,nithya,tharun</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>map</td>
+                <td>array.map</td>
+                <td>The Array.map() method creates a new array from the results of calling a function for every element.</td>
+                <td>
+<pre>
+const numbers = [49, 9, 16, 25];
+numbers.map(Math.sqrt);
+</pre>
+                </td>
+                <td>7,3,4,5</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>push</td>
+                <td>array.push()</td>
+                <td>The push() method adds <br> new items to the end <br>of an array.</td>
+<td>
+<pre>
+let fruits = ["Banana", "Orange"];
+fruits.push("Kiwi");
+</pre>
+</td>
+                <td>Banana,Orange,kiwi</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>pop</td>
+                <td>array.pop()</td>
+                <td>pop() removes the last element of an array</td>
+                <td>
+<pre>
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.pop();
+</pre>
+                </td>
+                <td>Banana,Orange,Apple</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>reduce</td>
+                <td>array.reduce()</td>
+                <td>The reduce() method executes <br> a reducer function for <br> array element.</td>
+                <td>
+<pre>
+const numbers = [175, 50, 50, 25];
+function myFunc(total, num) {
+return total + num;
+}    
+</pre>                
+                </td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>shift</td>
+                <td>array.shift()</td>
+                <td>The shift() method removes <br> the first item of an array.</td>
+                <td>
+<pre>
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.shift();
+    
+</pre>
+                </td>
+                <td>Orange,Apple,Mango</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>slice</td>
+                <td>array.slice</td>
+                <td>Array.slice() returns selected <br> array elements as a new array</td>
+                <td>
+<pre>
+const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const citrus = fruits.slice(1,4);
+</pre>
+                </td>
+                <td>orange,lemon,apple</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>sort</td>
+                <td>array.sort</td>
+                <td>The Array.sort() method sorts <br> the elements of an array</td>
+                <td>
+<pre>
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.sort();    
+</pre>
+                </td>
+                <td>Apple,Banana,Mango,Orange</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>splice</td>
+                <td>array.splice(index, howmany, item1)</td>
+                <td>The splice() method overwrites the original array.</td>
+                <td>
+<pre>
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+ 
+fruits.splice(2, 0, "Lemon", "Kiwi");
+</pre>
+                </td>
+                <td>Banana,Orange,Lemon,Kiwi,Apple,Mango</td>
+            </tr>
+
+            <tr>
+                <td>15</td>
+                <td>length</td>
+                <td>array.length</td>
+                <td>The length property sets or <br> returns the number of elements <br> in an array.</td>
+                <td>
+<pre>
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let length =  fruits.length;    
+</pre>                    
+                </td>
+                <td>4</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
