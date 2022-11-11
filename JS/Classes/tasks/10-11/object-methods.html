@@ -26,13 +26,13 @@
         document.write("<br>");
         
         //create an object-2
-        const cars ={
-            carname: "Honda",
-            carmodel: "amaze2022",
-            carcolor: "red"
+        const sale ={
+            model: "suzuki",
+            version: "vdi",
+            carcolor: "yellow"
         };
         // Display some data from the object:
-        document.write( cars.carname + " is " + cars.carmodel + " new " + cars.carcolor + " color ");
+        document.write( sale.model);
 
         document.write("<br>");
 
@@ -47,8 +47,90 @@
        
         document.write("<br>");
 
-        //create an object-4
-    
+        //object.assign() -4
+        var obj1={
+            name: "vel",
+            age: 25
+        };
+        var obj2={
+            profession: "front-end-developer"
+        };
+        var a=Object.assign({name1:"vijay",name2:"revi"},obj1,obj2); // we can use multiple of values input through objects.assign() properties
+        console.log(a);
+
+        document.write("<br>");
+
+        //create an object-5
+        const hotel ={
+            hotelname: " StarHotel ", // key : value
+            hotelloc: "kadyam",
+            items: ["idly","dosa","poori"]
+        };
+        // Display some data from the object:
+        document.write("My order is " + hotel["items"]);
+        
+        document.write("<br>");
+
+        //create an object-6
+        const place ={
+            placename: " kadayam ", // key : value
+            places: "coutralam",
+            visit: ["kovil","church","temple"]
+        };
+        // Display some data from the object:
+        document.write("My fav place is " + place["visit"]);
+        
+        document.write("<br>");
+
+        //create an object-7
+        const bikes={
+            name:"fazer",
+            model:"yamaha",
+            amount:"1.30k",
+            color:["white","black","blue","green","yellow","red"],
+        }
+         // Display some data from the object:
+        console.log(bikes);
+
+        document.write("<br>");
+
+        //create an object-7
+        const race={
+            name:"duke",
+            amount:"2.50k",
+            model:["rc-200","rc-390", "duke-200","duke-390"],
+            color:["white","black","blue","green","yellow","red"],
+        }
+         // Display some data from the object:
+        console.log(race);
+        
+        document.write("<br>");
+
+        //create an object-8
+        const redmi={
+            brand:"MI-REDMI",
+            rate:"10k-to-20k",
+            model: "android",
+            colors:["green","white",]
+        }
+         // Display some data from the object:
+        console.log(redmi);
+        
+        document.write("<br>");
+
+        //create an object-9
+        const realme5={
+            brand:"realme",
+            rate:"15k-to-25k",
+            model:"android",
+            colors:["blue","green","white",]
+        }
+         // Display some data from the object:
+        console.log(realme5);
+
+        document.write("<br>");
+
+        
     </script>
 </body>
 </html>
