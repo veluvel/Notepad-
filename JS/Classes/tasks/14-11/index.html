@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+       //forin method
+		let array = ['a', 'b', 'c','d','e'];
+        for( let array2 in array){
+          console.log(array2 + " " + array[array2]);
+          document.write("<br>");
+        };
+		document.write("<br>");
+		
+		//forof method
+		let array1 = ['a','b', 'c','d','e'];
+		for( let array3 of array1){
+          console.log(array3);
+        }
+		
+		//object in method
+		let value={
+			name: "velmurugan",
+			age: 26
+		}
+		for(let name1 in value){
+			console.log(name1+value[name1])
+		}
+        document.write()
+
+
+        //array of object
+        let cars = [
+        {
+            color: 'red',
+            type: 'sedan',
+            seat: 5
+        },
+        {
+            color: 'red',
+            type: 'suv',
+            seat: 7
+        }
+        ];
+        // cars.forEach(function(e){
+        //     for(let val in e){
+        //         document.write(e[val]);
+        //     };
+        // });
+        // document.write("<br>")
+
+        cars.forEach(function(newcar){
+            for(let val in newcar){
+                document.write(val + ":" + newcar[val]);
+                document.write("<br>")
+            }
+        })
+
+
+        // // passing arguments in constructor function
+        // let laptop=new (function(){
+        //     let d=10;
+        //     return d;
+
+        // } )
+        // console.log(laptop)
+// program to display a name
+function greet(name, lastName) {
+    document.write('Hello' + ' ' + name + ' ' + lastName);
+}
+
+// passing argument to setInterval
+window.setInterval(greet, 3000, 'John', 'Doe');
+    </script>
+</body>
+</html>
