@@ -145,7 +145,7 @@ span{
     background-image: linear-gradient(90deg, #2c2b2b, #111);
 }
 
- *Education section start *
+ /* *Education section start * */
 
 @media (min-width:320px) {
     #education{
@@ -162,3 +162,10 @@ span{
         margin-top: 9rem;
 }
 } 
+iframe{
+    width: 50% !important;
+    height: 50%;
+}
+td{
+    padding: 20px !important;
+}
