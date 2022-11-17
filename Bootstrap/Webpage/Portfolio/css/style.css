@@ -137,7 +137,7 @@ span{
 /* --------------------------- */
 /* Education section start */
 
-#education .bor-left{
+.bor-left{
     border-left: 3px solid rgba(255,62,94,255);
     padding-left: 15px;
 }
@@ -181,9 +181,35 @@ iframe:hover{
     border-right: 3px solid rgba(255,62,94,255);
     background-image: linear-gradient(90deg,  #111, #2c2b2b);
 }
+.bord-left{
+    border-left: 3px solid rgba(255,62,94,255);
+    background-image: linear-gradient(90deg, #2c2b2b,  #111);
+}
 .lin-cod{
     font-size: 1.5rem;
 }
 td{
     padding: 20px !important;
+}
+.after-line1:after{
+	content: " ";
+	position: relative;
+	margin: auto;
+	display: flex;
+	/* background: #fff; */
+	border: 2px solid #fff;
+	height: 2px;
+	width: 6rem;
+	top: 10px;
+}
+.after-line2:after{
+	content: " ";
+	position: relative;
+	margin: auto;
+	display: flex;
+	/* background: #fff; */
+	border: 2px solid rgb(255 62 94);
+	height: 2px;
+	width: 6rem;
+	top: 10px;
 }
