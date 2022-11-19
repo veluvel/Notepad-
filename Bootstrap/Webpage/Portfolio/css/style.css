@@ -213,3 +213,9 @@ td{
 	width: 6rem;
 	top: 10px;
 }
+.te-sh1{
+    text-shadow: 2px 1px 2px #ffffff;
+}
+.te-sh2{
+    text-shadow: 4px 1px 2px rgb(255 62 94);
+}
