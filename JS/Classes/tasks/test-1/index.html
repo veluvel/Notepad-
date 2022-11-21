@@ -10,12 +10,12 @@
     
     <script>
         // //even number
-        // let even = [5,4,9,14,96];
-        // for(i=0; i<even.length; i++){
-        //     if(even[i]% 2== 0){
-        //         document.write(even[i] + ("<br>"));
-        //     };
-        // }
+        let even = [5,4,9,14,96];
+        for(i=0; i<even.length; i++){
+            if(even[i]% 2== 0){
+                document.write(even[i] + ("<br>"));
+            };
+        }
         
         // // even number
         // let checkeven=[10,45,3,4,14];
@@ -62,19 +62,19 @@
         // }
 
         //fixbuzz 3 and 5 
-        // for(j=0;j<=100;j++){
-        //     if(j%3==0){
-        //         if(j%3==0 && j%5==0){
-        //             document.write('Fixbuzz'+ "-" + j + "<br>")
-        //         }
-        //         else{
-        //             document.write ('Fix'+ "-"  + j + "<br>")
-        //         }
-        //     }
-        //     else if(j%5==0){
-        //         document.write('Buzz'+ "-"  + j + "<br>")
-        //     }
-        // }
+        for(j=0;j<=100;j++){
+            if(j%3==0){
+                if(j%3==0 && j%5==0){
+                    document.write('Fixbuzz'+ "-" + j + "<br>")
+                }
+                else{
+                    document.write ('Fix'+ "-"  + j + "<br>")
+                }
+            }
+            else if(j%5==0){
+                document.write('Buzz'+ "-"  + j + "<br>")
+            }
+        }
           
         // document.write("<br>");
 
@@ -94,44 +94,47 @@
         // }
 
         //passenger
-        // const passengers=[
-        //     {
-        //         id:1,
-        //         passengername:'Freddy Mercury',
-        //         isvegetarionorvegon: false,
-        //         connectedflights: 1
-        //     },
-        //     {
-        //         id:2,
-        //         passengername:'Amy Winehouse',
-        //         isvegetarionorvegon: true,
-        //         connectedflights: 4
-        //     },
-        //     {
-        //         id:3,
-        //         passengername:'Kurt Cobain',
-        //         isvegetarionorvegon: true,
-        //         connectedflights: 3
-        //     },
-        //     {
-        //         id:4,
-        //         passengername:'Michael Jackson',
-        //         isvegetarionorvegon: true,
-        //         connectedflights: 1
-        //     }
-        // ]
+        const passengers=[
+            {
+                id:1,
+                passengername:'Freddy Mercury',
+                isvegetarionorvegon: false,
+                connectedflights: 1
+            },
+            {
+                id:2,
+                passengername:'Amy Winehouse',
+                isvegetarionorvegon: true,
+                connectedflights: 4
+            },
+            {
+                id:3,
+                passengername:'Kurt Cobain',
+                isvegetarionorvegon: true,
+                connectedflights: 3
+            },
+            {
+                id:4,
+                passengername:'Michael Jackson',
+                isvegetarionorvegon: true,
+                connectedflights: 1
+            }
+        ]
+        let newarray=[];
+        passengers.forEach((e)=>{
+           newarray.push(e.passengername);
+           
+        }
+        )
+        console.log(newarray);
         
-        // passengers.forEach((e)=>{
-        //     let naming=e.passengername;
-        //     console.log(naming);
-        // }
-        // )
+
 
 
         //integer r decimal
 
         let number=prompt("Enter the Number");
-        if(number%1==0){
+        if(number%1===0){
             document.write("Integer")
         }
         else{
