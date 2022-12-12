@@ -66,6 +66,12 @@ b{
 h3{
 	color: #5c768d;
 }
+.cursor{
+	cursor: pointer;
+}
+.hov:hover{
+	color: #5c768d;
+}
 /*-----------------------------------------------------------*/
 /*-----------Header-top Section Start------------*/
 .menu-contact{
@@ -74,6 +80,7 @@ h3{
 .menu-top{
 	padding: 0.5rem 0;
 	gap: 20px;
+	font-size: 12px;
 }
 .menu-top a{
 	text-decoration: none;	
@@ -135,6 +142,9 @@ h3{
 }
 .nav-list ul{
 	display: none;
+}
+.navbar li:hover{
+	color: #5c768d;
 }
 .navbar{
 	font-size: 40px;
@@ -647,6 +657,8 @@ h3{
 	background: #625c5c47;
 	line-height: 20px;
 }
+
+
 .p-img:hover .p-img-content{
 	opacity: 1;
 	transition: 1s ease;
@@ -748,18 +760,20 @@ h3{
 	align-items: center;
     justify-content: center;
     gap: 15px;
-    padding-top: 20px;;
+    padding-top: 20px;
+	/* display: block; */
 }
 .team-img1{
 	margin-bottom: 10rem;
 	position: relative;
 	color: white;
-	
+	/* overflow: hidden; */
 }
 .team-img1 img:hover{
 	transition: 0.5s ease;
 	transform: scale(1.1);
 }
+
 .team-img1 .t-img-content{
     position: absolute;
     bottom: -48px;
